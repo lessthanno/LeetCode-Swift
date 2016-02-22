@@ -9,5 +9,5 @@
 import XCTest
 
 func assert(problem: String, input: Any, answer: Any, expected: Any, judge: () -> Bool) {
-  XCTAssert(judge(), "\nProblem: \(problem)\nInput \(input)\nanswer: \(answer)\n expected: \(expected)")
+  XCTAssert(judge(), "\nProblem: \(problem)\nInput \(input)\nanswer: \(answer)\nexpected: \(expected)")
 }
