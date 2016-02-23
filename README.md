@@ -20,13 +20,15 @@ LeetCode OJ Solutions in Swift.
 
 - [Happy Number](https://leetcode.com/problems/happy-number/), Easy 202
 
+- [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/), Easy 168: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/ExcelSheetColumnTitle_E168.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/ExcelSheetColumnTitle_E168_Test.swift)
+
 ##### Array
 
 - [Move Zeroes](https://leetcode.com/problems/move-zeroes/), Easy 283: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/MoveZeroes_E283.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/MoveZeroes_E283_Test.swift)
 
 ##### Hash Table
 
-- [Valid Anagram](https://leetcode.com/problems/valid-anagram/), Easy 242: [Solution](](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/ValidAnagram_E242.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/ValidAnagram_E242_Test.swift), refer to [vshidc](https://leetcode.com/discuss/78459/9ms-java-solution)
+- [Valid Anagram](https://leetcode.com/problems/valid-anagram/), Easy 242: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/ValidAnagram_E242.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/ValidAnagram_E242_Test.swift), refer to [vshidc](https://leetcode.com/discuss/78459/9ms-java-solution)
 
 ##### Tree
 

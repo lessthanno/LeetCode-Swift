@@ -21,6 +21,8 @@
 		A3A95D2F1C7B5E67009E7DD6 /* UglyNumber_E263_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95D2E1C7B5E67009E7DD6 /* UglyNumber_E263_Test.swift */; };
 		A3A95D311C7BD70A009E7DD6 /* ValidAnagram_E242.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95D301C7BD70A009E7DD6 /* ValidAnagram_E242.swift */; };
 		A3A95D331C7BD781009E7DD6 /* ValidAnagram_E242_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95D321C7BD781009E7DD6 /* ValidAnagram_E242_Test.swift */; };
+		A3A95D351C7C2F29009E7DD6 /* ExcelSheetColumnTitle_E168.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95D341C7C2F29009E7DD6 /* ExcelSheetColumnTitle_E168.swift */; };
+		A3A95D371C7C39B3009E7DD6 /* ExcelSheetColumnTitle_E168_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95D361C7C39B3009E7DD6 /* ExcelSheetColumnTitle_E168_Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		A3A95D2E1C7B5E67009E7DD6 /* UglyNumber_E263_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UglyNumber_E263_Test.swift; sourceTree = "<group>"; };
 		A3A95D301C7BD70A009E7DD6 /* ValidAnagram_E242.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidAnagram_E242.swift; sourceTree = "<group>"; };
 		A3A95D321C7BD781009E7DD6 /* ValidAnagram_E242_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidAnagram_E242_Test.swift; sourceTree = "<group>"; };
+		A3A95D341C7C2F29009E7DD6 /* ExcelSheetColumnTitle_E168.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcelSheetColumnTitle_E168.swift; sourceTree = "<group>"; };
+		A3A95D361C7C39B3009E7DD6 /* ExcelSheetColumnTitle_E168_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcelSheetColumnTitle_E168_Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,7 @@
 				A3A95D281C7B54AB009E7DD6 /* MoveZeroes_E283.swift */,
 				A3A95D2C1C7B5DEC009E7DD6 /* UglyNumber_E263.swift */,
 				A3A95D301C7BD70A009E7DD6 /* ValidAnagram_E242.swift */,
+				A3A95D341C7C2F29009E7DD6 /* ExcelSheetColumnTitle_E168.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				A3A95D2A1C7B552F009E7DD6 /* MoveZeroes_E283_Test.swift */,
 				A3A95D2E1C7B5E67009E7DD6 /* UglyNumber_E263_Test.swift */,
 				A3A95D321C7BD781009E7DD6 /* ValidAnagram_E242_Test.swift */,
+				A3A95D361C7C39B3009E7DD6 /* ExcelSheetColumnTitle_E168_Test.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -282,6 +288,7 @@
 				A3A95D001C7B41A0009E7DD6 /* ViewController.swift in Sources */,
 				A3A95D2D1C7B5DEC009E7DD6 /* UglyNumber_E263.swift in Sources */,
 				A3A95CFE1C7B41A0009E7DD6 /* AppDelegate.swift in Sources */,
+				A3A95D351C7C2F29009E7DD6 /* ExcelSheetColumnTitle_E168.swift in Sources */,
 				A3A95D311C7BD70A009E7DD6 /* ValidAnagram_E242.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A95D371C7C39B3009E7DD6 /* ExcelSheetColumnTitle_E168_Test.swift in Sources */,
 				A3A95D2B1C7B552F009E7DD6 /* MoveZeroes_E283_Test.swift in Sources */,
 				A3A95D331C7BD781009E7DD6 /* ValidAnagram_E242_Test.swift in Sources */,
 				A3A95D2F1C7B5E67009E7DD6 /* UglyNumber_E263_Test.swift in Sources */,
