@@ -19,7 +19,7 @@ class UglyNumber_E263_Test: XCTestCase {
 
     let answer = UglyNumber_E263().isUgly(input)
 
-    assert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
+    LCSAssert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
   }
 
   func test002() {
@@ -28,7 +28,7 @@ class UglyNumber_E263_Test: XCTestCase {
 
     let answer = UglyNumber_E263().isUgly(input)
 
-    assert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
+    LCSAssert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
   }
 
 
@@ -38,7 +38,7 @@ class UglyNumber_E263_Test: XCTestCase {
 
     let answer = UglyNumber_E263().isUgly(input)
 
-    assert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
+    LCSAssert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
   }
 
 
@@ -48,7 +48,7 @@ class UglyNumber_E263_Test: XCTestCase {
 
     let answer = UglyNumber_E263().isUgly(input)
 
-    assert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
+    LCSAssert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
   }
 
 

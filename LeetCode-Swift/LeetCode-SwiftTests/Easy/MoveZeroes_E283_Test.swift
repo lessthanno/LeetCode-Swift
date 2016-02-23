@@ -22,7 +22,7 @@ class MoveZeroes_E283_Test: XCTestCase {
 
     MoveZeroes_E283().moveZeroes(&input)
 
-    assert(problem, input: original, answer: input, expected: expected) { input == expected }
+    LCSAssert(problem, input: original, answer: input, expected: expected) { input == expected }
   }
 
   func test002() {
@@ -32,7 +32,7 @@ class MoveZeroes_E283_Test: XCTestCase {
 
     MoveZeroes_E283().moveZeroes(&input)
 
-    assert(problem, input: original, answer: input, expected: expected) { input == expected }
+    LCSAssert(problem, input: original, answer: input, expected: expected) { input == expected }
   }
 
 

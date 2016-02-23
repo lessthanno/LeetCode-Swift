@@ -19,7 +19,7 @@ class NimGame_E292_Test: XCTestCase {
 
     let answer = NimGame_E292().canWinNim(input)
 
-    assert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
+    LCSAssert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
   }
 
   func test_002() {
@@ -28,7 +28,7 @@ class NimGame_E292_Test: XCTestCase {
 
     let answer = NimGame_E292().canWinNim(input)
 
-    assert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
+    LCSAssert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
   }
 
 
