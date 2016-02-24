@@ -10,6 +10,8 @@ LeetCode OJ Solutions in Swift.
 
 ##### Math
 
+- [Count Primes](https://leetcode.com/problems/count-primes/), Easy 204: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/CountPrimes_E204.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/CountPrimes_E204_Test.swift)
+
 - [Power of Two](https://leetcode.com/problems/power-of-two/), Easy 258
 
 - [Power of Three](https://leetcode.com/problems/power-of-three/), Easy 258
