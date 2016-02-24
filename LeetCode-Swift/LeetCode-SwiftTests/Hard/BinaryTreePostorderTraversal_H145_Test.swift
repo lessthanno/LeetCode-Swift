@@ -9,7 +9,7 @@
 import XCTest
 @testable import LeetCode_Swift
 
-class BinaryTreePostorderTraversal_M145_Test: XCTestCase {
+class BinaryTreePostorderTraversal_H145_Test: XCTestCase {
 
   let problem = "BinaryTreePostorderTraversal_M145"
 
@@ -19,7 +19,7 @@ class BinaryTreePostorderTraversal_M145_Test: XCTestCase {
       right: TreeNode(val: 4, left: TreeNode(val: 6), right: TreeNode(val: 7)))
     let expected = [3,5,2,6,7,4,1]
 
-    let answer = BinaryTreePostorderTraversal_M145().postorderTraversal(input)
+    let answer = BinaryTreePostorderTraversal_H145().postorderTraversal(input)
 
     LCSAssert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
   }
@@ -30,7 +30,7 @@ class BinaryTreePostorderTraversal_M145_Test: XCTestCase {
       right: TreeNode(val: 4, left: TreeNode(val: 6), right: TreeNode(val: 7)))
     let expected = [3,5,2,6,7,4,1]
 
-    let answer = BinaryTreePostorderTraversal_M145().postorderTraversalRecursive(input)
+    let answer = BinaryTreePostorderTraversal_H145().postorderTraversalRecursive(input)
 
     LCSAssert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
   }

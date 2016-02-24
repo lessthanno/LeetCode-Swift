@@ -32,7 +32,7 @@ LeetCode OJ Solutions in Swift.
 
 ##### Tree
 
-- [Same Tree](https://leetcode.com/problems/same-tree/), Easy 100
+- [Same Tree](https://leetcode.com/problems/same-tree/), Easy 100: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/SameTree_E100.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/SameTree_E100_Test.swift)
 
 - [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/), Medium 144: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreePreorderTraversal_M144.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreePreorderTraversal_M144_Test.swift)
 
