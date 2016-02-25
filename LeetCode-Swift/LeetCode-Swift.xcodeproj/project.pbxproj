@@ -43,6 +43,8 @@
 		A3A95D631C7EB9DD009E7DD6 /* AddDigits_E258_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95D621C7EB9DD009E7DD6 /* AddDigits_E258_Test.swift */; };
 		A3A95D651C7EDA09009E7DD6 /* HappyNumber_E202.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95D641C7EDA09009E7DD6 /* HappyNumber_E202.swift */; };
 		A3A95D671C7EDD5E009E7DD6 /* HappyNumber_E202_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95D661C7EDD5E009E7DD6 /* HappyNumber_E202_Test.swift */; };
+		A3A95D691C7EE840009E7DD6 /* ExcelSheetColumnNumber_E171.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95D681C7EE840009E7DD6 /* ExcelSheetColumnNumber_E171.swift */; };
+		A3A95D6B1C7EEA8E009E7DD6 /* ExcelSheetColumnNumber_E171_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95D6A1C7EEA8E009E7DD6 /* ExcelSheetColumnNumber_E171_Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +98,8 @@
 		A3A95D621C7EB9DD009E7DD6 /* AddDigits_E258_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDigits_E258_Test.swift; sourceTree = "<group>"; };
 		A3A95D641C7EDA09009E7DD6 /* HappyNumber_E202.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappyNumber_E202.swift; sourceTree = "<group>"; };
 		A3A95D661C7EDD5E009E7DD6 /* HappyNumber_E202_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappyNumber_E202_Test.swift; sourceTree = "<group>"; };
+		A3A95D681C7EE840009E7DD6 /* ExcelSheetColumnNumber_E171.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcelSheetColumnNumber_E171.swift; sourceTree = "<group>"; };
+		A3A95D6A1C7EEA8E009E7DD6 /* ExcelSheetColumnNumber_E171_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcelSheetColumnNumber_E171_Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,14 +181,15 @@
 			children = (
 				A3A95D211C7B469E009E7DD6 /* NimGame_E292.swift */,
 				A3A95D281C7B54AB009E7DD6 /* MoveZeroes_E283.swift */,
-				A3A95D2C1C7B5DEC009E7DD6 /* UglyNumber_E263.swift */,
 				A3A95D301C7BD70A009E7DD6 /* ValidAnagram_E242.swift */,
 				A3A95D341C7C2F29009E7DD6 /* ExcelSheetColumnTitle_E168.swift */,
+				A3A95D681C7EE840009E7DD6 /* ExcelSheetColumnNumber_E171.swift */,
 				A3A95D501C7D89D2009E7DD6 /* SameTree_E100.swift */,
 				A3A95D541C7DB183009E7DD6 /* CountPrimes_E204.swift */,
 				A3A95D581C7EA75B009E7DD6 /* PowerOfTwo_E231.swift */,
 				A3A95D5C1C7EAE00009E7DD6 /* PowerOfThree_E326.swift */,
 				A3A95D601C7EB88F009E7DD6 /* AddDigits_E258.swift */,
+				A3A95D2C1C7B5DEC009E7DD6 /* UglyNumber_E263.swift */,
 				A3A95D641C7EDA09009E7DD6 /* HappyNumber_E202.swift */,
 			);
 			path = Easy;
@@ -221,6 +226,7 @@
 				A3A95D5E1C7EB309009E7DD6 /* PowerOfThree_E326_Test.swift */,
 				A3A95D621C7EB9DD009E7DD6 /* AddDigits_E258_Test.swift */,
 				A3A95D661C7EDD5E009E7DD6 /* HappyNumber_E202_Test.swift */,
+				A3A95D6A1C7EEA8E009E7DD6 /* ExcelSheetColumnNumber_E171_Test.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -360,6 +366,7 @@
 				A3A95CFE1C7B41A0009E7DD6 /* AppDelegate.swift in Sources */,
 				A3A95D351C7C2F29009E7DD6 /* ExcelSheetColumnTitle_E168.swift in Sources */,
 				A3A95D311C7BD70A009E7DD6 /* ValidAnagram_E242.swift in Sources */,
+				A3A95D691C7EE840009E7DD6 /* ExcelSheetColumnNumber_E171.swift in Sources */,
 				A3A95D451C7D576F009E7DD6 /* BinaryTreeInorderTraversal_M94.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +389,7 @@
 				A3A95D2F1C7B5E67009E7DD6 /* UglyNumber_E263_Test.swift in Sources */,
 				A3A95D271C7B4861009E7DD6 /* NimGame_E292_Test.swift in Sources */,
 				A3A95D3F1C7D5120009E7DD6 /* BinaryTreePreorderTraversal_M144_Test.swift in Sources */,
+				A3A95D6B1C7EEA8E009E7DD6 /* ExcelSheetColumnNumber_E171_Test.swift in Sources */,
 				A3A95D131C7B41A0009E7DD6 /* LeetCodeHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

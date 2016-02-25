@@ -24,6 +24,8 @@ LeetCode OJ Solutions in Swift.
 
 - [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/), Easy 168: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/ExcelSheetColumnTitle_E168.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/ExcelSheetColumnTitle_E168_Test.swift)
 
+- [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/), Easy 168: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/ExcelSheetColumnNumber_E171.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/ExcelSheetColumnTitle_E171_Test.swift)
+
 ##### Array
 
 - [Move Zeroes](https://leetcode.com/problems/move-zeroes/), Easy 283: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/MoveZeroes_E283.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/MoveZeroes_E283_Test.swift)
