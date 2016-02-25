@@ -17,36 +17,27 @@ class PowerOfTwo_E231 {
       return false
     }
 
-    if n == 1 {
-      return true
-    }
-
     if n % 2 == 0 {
       return isPowerOfTwo(n / 2)
     }
 
-    return false
+    return n == 1
   }
 
+  // Iterative
   func isPowerOfTwoIterative(n: Int) -> Bool {
 
     if n <= 0 {
       return false
     }
 
-    if n == 1 {
-      return true
-    }
-
     var num = n
     while num % 2 == 0 {
       num /= 2
-      if num == 1 {
-        return true
-      }
     }
 
-    return false
+    return num == 1
   }
+
 
 }

@@ -37,6 +37,8 @@
 		A3A95D571C7DB4CD009E7DD6 /* CountPrimes_E204_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95D561C7DB4CD009E7DD6 /* CountPrimes_E204_Test.swift */; };
 		A3A95D591C7EA75B009E7DD6 /* PowerOfTwo_E231.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95D581C7EA75B009E7DD6 /* PowerOfTwo_E231.swift */; };
 		A3A95D5B1C7EA8D6009E7DD6 /* PowerOfTwo_E231_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95D5A1C7EA8D6009E7DD6 /* PowerOfTwo_E231_Test.swift */; };
+		A3A95D5D1C7EAE00009E7DD6 /* PowerOfThree_E326.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95D5C1C7EAE00009E7DD6 /* PowerOfThree_E326.swift */; };
+		A3A95D5F1C7EB309009E7DD6 /* PowerOfThree_E326_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95D5E1C7EB309009E7DD6 /* PowerOfThree_E326_Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,8 @@
 		A3A95D561C7DB4CD009E7DD6 /* CountPrimes_E204_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountPrimes_E204_Test.swift; sourceTree = "<group>"; };
 		A3A95D581C7EA75B009E7DD6 /* PowerOfTwo_E231.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerOfTwo_E231.swift; sourceTree = "<group>"; };
 		A3A95D5A1C7EA8D6009E7DD6 /* PowerOfTwo_E231_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerOfTwo_E231_Test.swift; sourceTree = "<group>"; };
+		A3A95D5C1C7EAE00009E7DD6 /* PowerOfThree_E326.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerOfThree_E326.swift; sourceTree = "<group>"; };
+		A3A95D5E1C7EB309009E7DD6 /* PowerOfThree_E326_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerOfThree_E326_Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +175,7 @@
 				A3A95D501C7D89D2009E7DD6 /* SameTree_E100.swift */,
 				A3A95D541C7DB183009E7DD6 /* CountPrimes_E204.swift */,
 				A3A95D581C7EA75B009E7DD6 /* PowerOfTwo_E231.swift */,
+				A3A95D5C1C7EAE00009E7DD6 /* PowerOfThree_E326.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -203,6 +208,7 @@
 				A3A95D521C7D8A62009E7DD6 /* SameTree_E100_Test.swift */,
 				A3A95D561C7DB4CD009E7DD6 /* CountPrimes_E204_Test.swift */,
 				A3A95D5A1C7EA8D6009E7DD6 /* PowerOfTwo_E231_Test.swift */,
+				A3A95D5E1C7EB309009E7DD6 /* PowerOfThree_E326_Test.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -336,6 +342,7 @@
 				A3A95D2D1C7B5DEC009E7DD6 /* UglyNumber_E263.swift in Sources */,
 				A3A95D4F1C7D857F009E7DD6 /* BinaryTreePostorderTraversal_H145.swift in Sources */,
 				A3A95D431C7D5737009E7DD6 /* Stack.swift in Sources */,
+				A3A95D5D1C7EAE00009E7DD6 /* PowerOfThree_E326.swift in Sources */,
 				A3A95CFE1C7B41A0009E7DD6 /* AppDelegate.swift in Sources */,
 				A3A95D351C7C2F29009E7DD6 /* ExcelSheetColumnTitle_E168.swift in Sources */,
 				A3A95D311C7BD70A009E7DD6 /* ValidAnagram_E242.swift in Sources */,
@@ -347,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A95D5F1C7EB309009E7DD6 /* PowerOfThree_E326_Test.swift in Sources */,
 				A3A95D471C7D67FD009E7DD6 /* BinaryTreeInorderTraversal_M94_Test.swift in Sources */,
 				A3A95D531C7D8A62009E7DD6 /* SameTree_E100_Test.swift in Sources */,
 				A3A95D4D1C7D8553009E7DD6 /* BinaryTreePostorderTraversal_H145_Test.swift in Sources */,

@@ -14,7 +14,7 @@ LeetCode OJ Solutions in Swift.
 
 - [Power of Two](https://leetcode.com/problems/power-of-two/), Easy 231: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/PowerOfTwo_E231.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/PowerOfTwo_E231_Test.swift)
 
-- [Power of Three](https://leetcode.com/problems/power-of-three/), Easy 258
+- [Power of Three](https://leetcode.com/problems/power-of-three/), Easy 326: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/PowerOfThree_E326.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/PowerOfThree_E326_Test.swift), refer to [NKeys](https://leetcode.com/discuss/84164/1-line-java-solution-without-loop-recursion)
 
 - [Add Digits](https://leetcode.com/problems/add-digits/), Easy 258
 
