@@ -20,7 +20,7 @@ LeetCode OJ Solutions in Swift.
 
 - [Ugly Number](https://leetcode.com/problems/ugly-number/), Easy 263: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/UglyNumber_E263.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/UglyNumber_E263_Test.swift)
 
-- [Happy Number](https://leetcode.com/problems/happy-number/), Easy 202
+- [Happy Number](https://leetcode.com/problems/happy-number/), Easy 202: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/HappyNumber_E202.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/HappyNumber_E202_Test.swift)
 
 - [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/), Easy 168: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/ExcelSheetColumnTitle_E168.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/ExcelSheetColumnTitle_E168_Test.swift)
 
