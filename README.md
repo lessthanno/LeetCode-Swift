@@ -16,7 +16,7 @@ LeetCode OJ Solutions in Swift.
 
 - [Power of Three](https://leetcode.com/problems/power-of-three/), Easy 326: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/PowerOfThree_E326.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/PowerOfThree_E326_Test.swift), refer to [NKeys](https://leetcode.com/discuss/84164/1-line-java-solution-without-loop-recursion)
 
-- [Add Digits](https://leetcode.com/problems/add-digits/), Easy 258
+- [Add Digits](https://leetcode.com/problems/add-digits/), Easy 258:  [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/AddDigits_E258.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/AddDigits_E258_Test.swift), refer to [Wikipedia](https://en.wikipedia.org/wiki/Digital_root)
 
 - [Ugly Number](https://leetcode.com/problems/ugly-number/), Easy 263: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/UglyNumber_E263.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/UglyNumber_E263_Test.swift)
 

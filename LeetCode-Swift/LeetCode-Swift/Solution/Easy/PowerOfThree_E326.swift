@@ -13,10 +13,9 @@ Could you do it without using any loop / recursion?
 
 class PowerOfThree_E326 {
 
-
   // No iterative/recursive solution
   func isPowerOfThree(n: Int) -> Bool {
-    // the biggest Int 3 ^ 39
+    // the biggest Int is 3 ^ 39, 3 ^ 40 will overflow.
     return n > 0 && 4052555153018976267 % n == 0
   }
 
