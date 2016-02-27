@@ -27,7 +27,7 @@ class KthSmallestElementBST_M230 {
   // Iterative by GeneratorType
   func kthSmallest(root: TreeNode?, _ k: Int) -> Int {
 
-    let generator = BinaryTreeInorderTraversalGenerator(currentNode: root)
+    let generator = BinaryTreeInorderTraversalGenerator(root: root)
 
     for var i = 1; i < k; i++ {
       generator.next()

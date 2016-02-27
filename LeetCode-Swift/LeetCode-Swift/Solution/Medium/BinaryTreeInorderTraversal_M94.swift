@@ -24,26 +24,31 @@ public class BinaryTreeInorderTraversalGenerator: GeneratorType {
 
   typealias StackType = Stack<TreeNode>
 
-  var stack: StackType
-  var currentNode: TreeNode?
+  var stack: StackType = StackType()
 
-  init(currentNode: TreeNode?) {
-    self.stack = StackType()
-    self.currentNode = currentNode
+  init(root: TreeNode?) {
+    pushAllNodes(root)
+  }
+
+  private func pushAllNodes(node: TreeNode?) {
+    var theNode = node
+    while theNode != nil {
+      stack.push(theNode!)
+      theNode = theNode!.left
+    }
+  }
+
+  private func hasNext() -> Bool {
+    return !self.stack.empty()
   }
 
   public typealias Element = Int
 
   public func next() -> Element? {
 
-    while currentNode != nil {
-      stack.push(currentNode!)
-      currentNode = currentNode!.left
-    }
-
-    if !stack.empty() {
+    if hasNext() {
       let visitedNode = stack.pop()
-      currentNode = visitedNode.right
+      pushAllNodes(visitedNode.right)
       return visitedNode.val
     }
     return nil
@@ -57,7 +62,7 @@ class BinaryTreeInorderTraversal_M94 {
   // iterative by GeneratorType
   func inorderTraversal(root: TreeNode?) -> [Int] {
 
-    let generator = BinaryTreeInorderTraversalGenerator(currentNode: root)
+    let generator = BinaryTreeInorderTraversalGenerator(root: root)
 
     var result = Array<Int>()
 

@@ -44,11 +44,12 @@ LeetCode OJ Solutions in Swift.
 
 - [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/), Medium 144: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreePreorderTraversal_M144.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreePreorderTraversal_M144_Test.swift)
 
-- [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/), Medium 94: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreeInorderTraversal_M94.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreeInorderTraversal_M94_Test.swift)
+- [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/), Medium 94: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreeInorderTraversal_M94.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreeInorderTraversal_M94_Test.swift)
 
-- [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/), Medium 145: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreePostorderTraversal_M145.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreePostorderTraversal_M145_Test.swift)
+- [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/), Medium 145: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreePostorderTraversal_M145.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreePostorderTraversal_M145_Test.swift)
 
 - [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/), Easy 235: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/LowestCommonAncestorOfBST_E235.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/LowestCommonAncestorOfBST_E235_Test.swift)
 
 - [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/), Medium 230: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/KthSmallestElementBST_M230.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/KthSmallestElementBST_M230_Test.swift)
 
+- [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/), Medium 173: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinarySearchTreeIterator_M173.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinarySearchTreeIterator_M173_Test.swift)
