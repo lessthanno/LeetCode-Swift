@@ -27,9 +27,9 @@ public class BinaryTreePostorderTravesalGenerator: GeneratorType {
   var stack1: StackType
   var stack2: StackType
 
-  init(stack1: StackType, stack2: StackType, root: TreeNode) {
-    self.stack1 = stack1
-    self.stack2 = stack2
+  init(root: TreeNode) {
+    self.stack1 = StackType()
+    self.stack2 = StackType()
     self.stack1.push(root)
   }
 
@@ -71,7 +71,7 @@ class BinaryTreePostorderTraversal_H145 {
       return []
     }
 
-    let generator = BinaryTreePostorderTravesalGenerator(stack1: Stack<TreeNode>(), stack2: Stack<TreeNode>(), root: root)
+    let generator = BinaryTreePostorderTravesalGenerator(root: root)
 
     var result = Array<Int>()
 

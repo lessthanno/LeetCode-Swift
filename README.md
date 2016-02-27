@@ -50,3 +50,5 @@ LeetCode OJ Solutions in Swift.
 
 - [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/), Easy 235: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/LowestCommonAncestorOfBST_E235.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/LowestCommonAncestorOfBST_E235_Test.swift)
 
+- [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/), Medium 230: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/KthSmallestElementBST_M230.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/KthSmallestElementBST_M230_Test.swift)
+

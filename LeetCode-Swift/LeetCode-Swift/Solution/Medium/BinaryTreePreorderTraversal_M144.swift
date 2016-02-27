@@ -26,8 +26,8 @@ public class BinaryTreePreorderTravesalGenerator: GeneratorType {
 
   var stack: StackType
 
-  init(stack: StackType, root: TreeNode) {
-    self.stack = stack
+  init(root: TreeNode) {
+    self.stack = StackType()
     self.stack.push(root)
   }
 
@@ -56,7 +56,7 @@ public class BinaryTreePreorderTravesalGenerator: GeneratorType {
 extension TreeNode: SequenceType {
 
   public func generate() -> BinaryTreePreorderTravesalGenerator {
-    return BinaryTreePreorderTravesalGenerator(stack: Stack<TreeNode>(), root: self)
+    return BinaryTreePreorderTravesalGenerator(root: self)
   }
 }
 

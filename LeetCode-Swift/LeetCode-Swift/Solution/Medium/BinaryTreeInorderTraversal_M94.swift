@@ -20,15 +20,15 @@ Note: Recursive solution is trivial, could you do it iteratively?
 */
 
 
-public class BinaryTreeInorderTravesalGenerator: GeneratorType {
+public class BinaryTreeInorderTraversalGenerator: GeneratorType {
 
   typealias StackType = Stack<TreeNode>
 
   var stack: StackType
   var currentNode: TreeNode?
 
-  init(stack: StackType, currentNode: TreeNode?) {
-    self.stack = stack
+  init(currentNode: TreeNode?) {
+    self.stack = StackType()
     self.currentNode = currentNode
   }
 
@@ -57,8 +57,7 @@ class BinaryTreeInorderTraversal_M94 {
   // iterative by GeneratorType
   func inorderTraversal(root: TreeNode?) -> [Int] {
 
-    let stack = Stack<TreeNode>()
-    let generator = BinaryTreeInorderTravesalGenerator(stack: stack, currentNode: root)
+    let generator = BinaryTreeInorderTraversalGenerator(currentNode: root)
 
     var result = Array<Int>()
 
