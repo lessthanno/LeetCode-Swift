@@ -30,6 +30,10 @@ LeetCode OJ Solutions in Swift.
 
 - [Move Zeroes](https://leetcode.com/problems/move-zeroes/), Easy 283: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/MoveZeroes_E283.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/MoveZeroes_E283_Test.swift)
 
+- [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/), Easy 217: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/ContainsDuplicate_E217.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/ContainsDuplicate_E217_Test.swift)
+
+- [Majority Element](https://leetcode.com/problems/contains-duplicate/), Easy 217: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/Majority_Element_E169.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/Majority_Element_E169_Test.swift), refer to [Wikipedia](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm)
+
 ##### Hash Table
 
 - [Valid Anagram](https://leetcode.com/problems/valid-anagram/), Easy 242: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/ValidAnagram_E242.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/ValidAnagram_E242_Test.swift), refer to [vshidc](https://leetcode.com/discuss/78459/9ms-java-solution)
