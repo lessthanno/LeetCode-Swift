@@ -32,7 +32,7 @@ LeetCode OJ Solutions in Swift.
 
 - [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/), Easy 217: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/ContainsDuplicate_E217.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/ContainsDuplicate_E217_Test.swift)
 
-- [Majority Element](https://leetcode.com/problems/contains-duplicate/), Easy 217: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/Majority_Element_E169.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/Majority_Element_E169_Test.swift), refer to [Wikipedia](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm)
+- [Majority Element](https://leetcode.com/problems/contains-duplicate/), Easy 169: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/Majority_Element_E169.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/Majority_Element_E169_Test.swift), refer to [Wikipedia](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm)
 
 ##### Hash Table
 
@@ -47,4 +47,6 @@ LeetCode OJ Solutions in Swift.
 - [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/), Medium 94: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreeInorderTraversal_M94.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreeInorderTraversal_M94_Test.swift)
 
 - [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/), Medium 145: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreePostorderTraversal_M145.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreePostorderTraversal_M145_Test.swift)
+
+- [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/), Easy 235: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/LowestCommonAncestorOfBST_E235.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/LowestCommonAncestorOfBST_E235_Test.swift)
 
