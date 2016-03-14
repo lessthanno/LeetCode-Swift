@@ -13,9 +13,9 @@ class KthSmallestElementBST_M230_Test: XCTestCase {
 
   let problem = "KthSmallestElementBST_M230"
   func test001() {
-    let input = TreeNode(val: 6,
-      left: TreeNode(val: 2, left:  TreeNode(val: 0), right: TreeNode(val: 4)),
-      right: TreeNode(val: 8, left: TreeNode(val: 7), right: TreeNode(val: 9)))
+    let input = TreeNode(6,
+      left: TreeNode(2, left:  TreeNode(0), right: TreeNode(4)),
+      right: TreeNode(8, left: TreeNode(7), right: TreeNode(9)))
     let k = 3
     let expected = 4
 
@@ -26,9 +26,9 @@ class KthSmallestElementBST_M230_Test: XCTestCase {
 
 
   func test002() {
-    let input = TreeNode(val: 6,
-      left: TreeNode(val: 2, left:  TreeNode(val: 0), right: TreeNode(val: 4)),
-      right: TreeNode(val: 8, left: TreeNode(val: 7), right: TreeNode(val: 9)))
+    let input = TreeNode(6,
+      left: TreeNode(2, left:  TreeNode(0), right: TreeNode(4)),
+      right: TreeNode(8, left: TreeNode(7), right: TreeNode(9)))
     let k = 6
     let expected = 8
 

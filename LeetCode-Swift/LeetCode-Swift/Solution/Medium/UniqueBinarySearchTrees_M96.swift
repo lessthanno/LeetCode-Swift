@@ -20,20 +20,21 @@ class UniqueBinarySearchTrees_E96 {
 
   func numTrees(n: Int) -> Int {
 
-    if n == 1 {
+    if n == 0 {
+      return 1
+    } else if n == 1 {
       return 1
     } else if n == 2 {
       return 2
     } else if n == 3 {
       return 5
-    } else {
-      var num = numTrees(n-1)
-      for i in 2..<n {
-        num += numTrees(n - i) * numTrees(i - 1)
-        }
-      num += numTrees(n - 1)
-      return num
     }
+
+    var num = 0
+    for i in 1...n {
+      num += numTrees(n - i) * numTrees(i - 1)
+    }
+    return num
   }
 
 }

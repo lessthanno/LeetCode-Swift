@@ -53,3 +53,8 @@ LeetCode OJ Solutions in Swift.
 - [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/), Medium 230: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/KthSmallestElementBST_M230.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/KthSmallestElementBST_M230_Test.swift)
 
 - [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/), Medium 173: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinarySearchTreeIterator_M173.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinarySearchTreeIterator_M173_Test.swift)
+
+- [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/), Medium 96: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/UniqueBinarySearchTrees_M96.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/UniqueBinarySearchTrees_M96_Test.swift)
+
+- [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/), Medium 95: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/UniqueBinarySearchTreesII_M95.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/UniqueBinarySearchTreesII_M95_Test.swift)
+

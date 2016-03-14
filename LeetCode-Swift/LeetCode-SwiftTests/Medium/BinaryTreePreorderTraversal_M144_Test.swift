@@ -16,9 +16,9 @@ class BinaryTreePreorderTraversal_M144_Test: XCTestCase {
   
   func test001() {
 
-    let input = TreeNode(val: 1,
-      left: TreeNode(val: 3, left:  TreeNode(val: 2), right: TreeNode(val: 3)),
-      right: TreeNode(val: 4, left: TreeNode(val: 6), right: TreeNode(val: 7)))
+    let input = TreeNode(1,
+      left: TreeNode(3, left:  TreeNode(2), right: TreeNode(3)),
+      right: TreeNode(4, left: TreeNode(6), right: TreeNode(7)))
     let expected = [1, 3, 2, 3, 4, 6, 7]
 
     let answer = BinaryTreePreorderTraversal_M144().preorderTraversal(input)
@@ -28,9 +28,9 @@ class BinaryTreePreorderTraversal_M144_Test: XCTestCase {
 
   func test002() {
 
-    let input = TreeNode(val: 1,
-      left: TreeNode(val: 3, left:  TreeNode(val: 2), right: TreeNode(val: 3)),
-      right: TreeNode(val: 4, left: TreeNode(val: 6), right: TreeNode(val: 7)))
+    let input = TreeNode(1,
+      left: TreeNode(3, left:  TreeNode(2), right: TreeNode(3)),
+      right: TreeNode(4, left: TreeNode(6), right: TreeNode(7)))
     let expected = [1, 3, 2, 3, 4, 6, 7]
 
     let answer = BinaryTreePreorderTraversal_M144().preorderTraversalRecursive(input)

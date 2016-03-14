@@ -15,9 +15,9 @@ class BinarySearchTreeIterator_M173_Test: XCTestCase {
 
   func test001() {
 
-    let input = TreeNode(val: 5,
-      left: TreeNode(val: 3, left:  TreeNode(val: 2), right: TreeNode(val: 4)),
-      right: TreeNode(val: 8, left: TreeNode(val: 6), right: TreeNode(val: 9)))
+    let input = TreeNode(5,
+      left: TreeNode(3, left:  TreeNode(2), right: TreeNode(4)),
+      right: TreeNode(8, left: TreeNode(6), right: TreeNode(9)))
     let expected = [2, 3, 4, 5, 6, 8, 9]
 
     var answer = [Int]()

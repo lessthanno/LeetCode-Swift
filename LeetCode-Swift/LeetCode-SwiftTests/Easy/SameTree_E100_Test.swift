@@ -14,13 +14,13 @@ class SameTree_E100_Test: XCTestCase {
   let problem = "SameTree_E100"
 
   func test001() {
-    let input1 = TreeNode(val: 1,
-      left: TreeNode(val: 2, left:  TreeNode(val: 3), right: TreeNode(val: 5)),
-      right: TreeNode(val: 4, left: TreeNode(val: 6), right: TreeNode(val: 7)))
+    let input1 = TreeNode(1,
+      left: TreeNode(2, left:  TreeNode(3), right: TreeNode(5)),
+      right: TreeNode(4, left: TreeNode(6), right: TreeNode(7)))
 
-    let input2 = TreeNode(val: 1,
-      left: TreeNode(val: 2, left:  TreeNode(val: 3), right: TreeNode(val: 5)),
-      right: TreeNode(val: 4, left: TreeNode(val: 6), right: TreeNode(val: 7)))
+    let input2 = TreeNode(1,
+      left: TreeNode(2, left:  TreeNode(3), right: TreeNode(5)),
+      right: TreeNode(4, left: TreeNode(6), right: TreeNode(7)))
 
     let expected = true
 
@@ -30,13 +30,13 @@ class SameTree_E100_Test: XCTestCase {
   }
 
   func test002() {
-    let input1 = TreeNode(val: 1,
-      left: TreeNode(val: 2, left:  TreeNode(val: 3), right: TreeNode(val: 5)),
-      right: TreeNode(val: 4, left: TreeNode(val: 6), right: TreeNode(val: 7)))
+    let input1 = TreeNode(1,
+      left: TreeNode(2, left:  TreeNode(3), right: TreeNode(5)),
+      right: TreeNode(4, left: TreeNode(6), right: TreeNode(7)))
 
-    let input2 = TreeNode(val: 1,
-      left: TreeNode(val: 2, left:  TreeNode(val: 3), right: TreeNode(val: 5)),
-      right: TreeNode(val: 5, left: TreeNode(val: 3), right: TreeNode(val: 4)))
+    let input2 = TreeNode(1,
+      left: TreeNode(2, left:  TreeNode(3), right: TreeNode(5)),
+      right: TreeNode(5, left: TreeNode(3), right: TreeNode(4)))
 
     let expected = false
 
@@ -46,13 +46,13 @@ class SameTree_E100_Test: XCTestCase {
   }
 
   func test003() {
-    let input1 = TreeNode(val: 1,
-      left: TreeNode(val: 2, left:  TreeNode(val: 3), right: TreeNode(val: 5)),
-      right: TreeNode(val: 4, left: TreeNode(val: 6), right: TreeNode(val: 7)))
+    let input1 = TreeNode(1,
+      left: TreeNode(2, left:  TreeNode(3), right: TreeNode(5)),
+      right: TreeNode(4, left: TreeNode(6), right: TreeNode(7)))
 
-    let input2 = TreeNode(val: 1,
-      left: TreeNode(val: 2, left:  TreeNode(val: 3), right: TreeNode(val: 5)),
-      right: TreeNode(val: 4, left: TreeNode(val: 6), right: TreeNode(val: 7)))
+    let input2 = TreeNode(1,
+      left: TreeNode(2, left:  TreeNode(3), right: TreeNode(5)),
+      right: TreeNode(4, left: TreeNode(6), right: TreeNode(7)))
 
     let expected = true
 
@@ -63,13 +63,13 @@ class SameTree_E100_Test: XCTestCase {
 
 
   func test004() {
-    let input1 = TreeNode(val: 1,
-      left: TreeNode(val: 2, left:  TreeNode(val: 3), right: TreeNode(val: 5)),
-      right: TreeNode(val: 4, left: TreeNode(val: 6), right: TreeNode(val: 7)))
+    let input1 = TreeNode(1,
+      left: TreeNode(2, left:  TreeNode(3), right: TreeNode(5)),
+      right: TreeNode(4, left: TreeNode(6), right: TreeNode(7)))
 
-    let input2 = TreeNode(val: 1,
-      left: TreeNode(val: 2, left:  TreeNode(val: 3), right: TreeNode(val: 5)),
-      right: TreeNode(val: 5, left: TreeNode(val: 3), right: nil))
+    let input2 = TreeNode(1,
+      left: TreeNode(2, left:  TreeNode(3), right: TreeNode(5)),
+      right: TreeNode(5, left: TreeNode(3), right: nil))
 
     let expected = false
 
@@ -79,12 +79,12 @@ class SameTree_E100_Test: XCTestCase {
   }
 
   func test005() {
-    let input1 = TreeNode(val: 1,
-      left: TreeNode(val: 5),
-      right: TreeNode(val: 15))
+    let input1 = TreeNode(1,
+      left: TreeNode(5),
+      right: TreeNode(15))
 
-    let input2 = TreeNode(val: 1,
-      left: TreeNode(val: 5, left: nil, right: TreeNode(val: 15)),
+    let input2 = TreeNode(1,
+      left: TreeNode(5, left: nil, right: TreeNode(15)),
       right: nil)
 
     let expected = false
@@ -95,13 +95,13 @@ class SameTree_E100_Test: XCTestCase {
   }
 
   func test006() {
-    let input1 = TreeNode(val: 1,
-      left: TreeNode(val: 1),
+    let input1 = TreeNode(1,
+      left: TreeNode(1),
       right: nil)
 
-    let input2 = TreeNode(val: 1,
+    let input2 = TreeNode(1,
       left: nil,
-      right: TreeNode(val: 1))
+      right: TreeNode(1))
 
     let expected = false
 
@@ -112,12 +112,12 @@ class SameTree_E100_Test: XCTestCase {
 
 
   func test007() {
-    let input1 = TreeNode(val: 0,
-      left: TreeNode(val: -5),
+    let input1 = TreeNode(0,
+      left: TreeNode(-5),
       right: nil)
 
-    let input2 = TreeNode(val: 0,
-      left: TreeNode(val: -8),
+    let input2 = TreeNode(0,
+      left: TreeNode(-8),
       right: nil)
 
     let expected = false
