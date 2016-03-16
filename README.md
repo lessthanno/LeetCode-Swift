@@ -2,7 +2,7 @@
 
 LeetCode OJ Solutions in Swift.
 
-[LeetCode OJ](http://www.leetcode.com) is online judge platform for preparing technical coding interviews. There are solutions in Swift and some conculusions blogs.
+[LeetCode OJ](http://www.leetcode.com) is online judge platform for preparing technical coding interviews. There are solutions in Swift and some summary blogs.
 
 ### Solutions
 
