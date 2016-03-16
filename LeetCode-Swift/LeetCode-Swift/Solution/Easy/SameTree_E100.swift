@@ -10,7 +10,8 @@ Two binary trees are considered equal if they are structurally identical and the
 
 class SameTree_E100 {
 
-  // iterative
+// MARK: - iterative
+
   func isSameTree(p: TreeNode?, _ q: TreeNode?) -> Bool {
 
     if p == nil && q == nil {
@@ -57,7 +58,8 @@ class SameTree_E100 {
     return true
   }
 
-  // Recursive
+// MARK: - Recursive
+
   func isSameTreeRecursive(p: TreeNode?, _ q: TreeNode?) -> Bool {
     if let p = p, q = q {
       if p.val == q.val &&

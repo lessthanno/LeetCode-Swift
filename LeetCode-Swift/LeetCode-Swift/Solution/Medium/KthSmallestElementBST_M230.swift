@@ -24,7 +24,8 @@ The optimal runtime complexity is O(height of BST).
 
 class KthSmallestElementBST_M230 {
 
-  // Iterative by GeneratorType
+// MARK: - Iterative by GeneratorType
+
   func kthSmallest(root: TreeNode?, _ k: Int) -> Int {
 
     let generator = BinaryTreeInorderTraversalGenerator(root: root)

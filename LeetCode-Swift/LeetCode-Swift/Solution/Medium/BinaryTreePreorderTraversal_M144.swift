@@ -62,7 +62,8 @@ extension TreeNode: SequenceType {
 
 class BinaryTreePreorderTraversal_M144 {
 
-  // iterative by SequenceType
+// MARK: - iterative by SequenceType
+
   func preorderTraversal(root: TreeNode?) -> [Int] {
     if let root = root {
       return root.map { $0 }
@@ -70,7 +71,8 @@ class BinaryTreePreorderTraversal_M144 {
     return []
   }
 
-  // recursive
+// MARK: - recursive
+
   func preorderTraversalRecursive(root: TreeNode?) -> [Int] {
     var result = Array<Int>()
     if let root = root {

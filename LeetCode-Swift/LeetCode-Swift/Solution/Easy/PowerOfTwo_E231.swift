@@ -10,7 +10,8 @@ Given an integer, write a function to determine if it is a power of two.
 
 class PowerOfTwo_E231 {
 
-  // Recursive
+// MARK: - Recursive
+
   func isPowerOfTwo(n: Int) -> Bool {
 
     if n <= 0 {
@@ -24,7 +25,8 @@ class PowerOfTwo_E231 {
     return n == 1
   }
 
-  // Iterative
+// MARK: - Iterative
+
   func isPowerOfTwoIterative(n: Int) -> Bool {
 
     if n <= 0 {

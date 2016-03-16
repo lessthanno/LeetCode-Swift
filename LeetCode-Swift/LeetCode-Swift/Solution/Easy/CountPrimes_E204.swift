@@ -12,7 +12,7 @@ Count the number of prime numbers less than a non-negative number, n.
 
 class CountPrimes_E204 {
 
-  // Sieve of Es
+// MARK: - Sieve of Es
   func countPrimes(n: Int) -> Int {
 
     if n <= 1 {

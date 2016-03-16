@@ -59,7 +59,8 @@ public class BinaryTreeInorderTraversalGenerator: GeneratorType {
 
 class BinaryTreeInorderTraversal_M94 {
 
-  // iterative by GeneratorType
+// MARK: - iterative by GeneratorType
+
   func inorderTraversal(root: TreeNode?) -> [Int] {
 
     let generator = BinaryTreeInorderTraversalGenerator(root: root)
@@ -75,7 +76,8 @@ class BinaryTreeInorderTraversal_M94 {
     return result
   }
 
-  // recursive
+// MARK: - recursive
+
   func inorderTraversalRecursive(root: TreeNode?) -> [Int] {
     var result = Array<Int>()
     if let root = root {

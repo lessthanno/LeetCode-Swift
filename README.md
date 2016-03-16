@@ -2,13 +2,13 @@
 
 LeetCode OJ Solutions in Swift.
 
-[LeetCode OJ]([www.leetcode.com]) is online judge platform for preparing technical coding interviews. There are solutions in Swift and some conculusions blogs.
+[LeetCode OJ](http://www.leetcode.com) is online judge platform for preparing technical coding interviews. There are solutions in Swift and some conculusions blogs.
 
-#### Solutions
+### Solutions
 
 - [Nim Game](https://leetcode.com/problems/nim-game/), Easy 292: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/NimGame_E292.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/NimGame_E292_Test.swift)
 
-##### Math
+#### Math
 
 - [Count Primes](https://leetcode.com/problems/count-primes/), Easy 204: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/CountPrimes_E204.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/CountPrimes_E204_Test.swift)
 
@@ -26,7 +26,7 @@ LeetCode OJ Solutions in Swift.
 
 - [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/), Easy 168: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/ExcelSheetColumnNumber_E171.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/ExcelSheetColumnTitle_E171_Test.swift)
 
-##### Array
+#### Array
 
 - [Move Zeroes](https://leetcode.com/problems/move-zeroes/), Easy 283: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/MoveZeroes_E283.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/MoveZeroes_E283_Test.swift)
 
@@ -34,19 +34,23 @@ LeetCode OJ Solutions in Swift.
 
 - [Majority Element](https://leetcode.com/problems/contains-duplicate/), Easy 169: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/Majority_Element_E169.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/Majority_Element_E169_Test.swift), refer to [Wikipedia](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm)
 
-##### Hash Table
+#### Hash Table
 
 - [Valid Anagram](https://leetcode.com/problems/valid-anagram/), Easy 242: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/ValidAnagram_E242.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/ValidAnagram_E242_Test.swift), refer to [vshidc](https://leetcode.com/discuss/78459/9ms-java-solution)
 
-##### Tree
+#### Tree
 
 - [Same Tree](https://leetcode.com/problems/same-tree/), Easy 100: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/SameTree_E100.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/SameTree_E100_Test.swift)
+
+##### Binary Tree
 
 - [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/), Medium 144: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreePreorderTraversal_M144.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreePreorderTraversal_M144_Test.swift)
 
 - [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/), Medium 94: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreeInorderTraversal_M94.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreeInorderTraversal_M94_Test.swift)
 
 - [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/), Medium 145: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreePostorderTraversal_M145.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreePostorderTraversal_M145_Test.swift)
+
+##### Binary Search Tree (BST)
 
 - [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/), Easy 235: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/LowestCommonAncestorOfBST_E235.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/LowestCommonAncestorOfBST_E235_Test.swift)
 
@@ -57,4 +61,8 @@ LeetCode OJ Solutions in Swift.
 - [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/), Medium 96: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/UniqueBinarySearchTrees_M96.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/UniqueBinarySearchTrees_M96_Test.swift)
 
 - [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/), Medium 95: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/UniqueBinarySearchTreesII_M95.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/UniqueBinarySearchTreesII_M95_Test.swift)
+
+##### Balanced Binary Tree
+
+- [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/), Easy 110: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/BalancedBinaryTree_E110.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/BalancedBinaryTree_M110_Test.swift)
 

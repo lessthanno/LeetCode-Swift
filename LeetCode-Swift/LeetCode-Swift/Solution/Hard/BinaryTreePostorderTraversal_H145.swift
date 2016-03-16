@@ -64,7 +64,8 @@ public class BinaryTreePostorderTravesalGenerator: GeneratorType {
 
 class BinaryTreePostorderTraversal_H145 {
 
-  // iterative by GeneratorType
+// MARK: - iterative by GeneratorType
+
   func postorderTraversal(root: TreeNode?) -> [Int] {
 
     guard let root = root else {
@@ -84,7 +85,8 @@ class BinaryTreePostorderTraversal_H145 {
     return result
   }
 
-  // recursive
+// MARK: - recursive
+
   func postorderTraversalRecursive(root: TreeNode?) -> [Int] {
     var result = Array<Int>()
     if let root = root {
