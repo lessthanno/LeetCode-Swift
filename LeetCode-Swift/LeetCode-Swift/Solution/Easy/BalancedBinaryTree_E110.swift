@@ -45,13 +45,13 @@ class BalancedBinaryTree_E110 {
 
 // MARK: - recursive only isBalance
 
-  func isBalanced(root: TreeNode?) -> (Bool, Int) {
+  func isBalancedRecusrive(root: TreeNode?) -> (Bool, Int) {
     guard let root = root else {
       return (true, 0)
     }
 
-    let (leftIsBalanced, leftDepth) = isBalanced(root.left)
-    let (rightIsBalanced, rightDepth) = isBalanced(root.right)
+    let (leftIsBalanced, leftDepth) = isBalancedRecusrive(root.left)
+    let (rightIsBalanced, rightDepth) = isBalancedRecusrive(root.right)
 
     if abs(leftDepth - rightDepth) <= 1 {
       return (leftIsBalanced && rightIsBalanced, max(leftDepth, rightDepth) + 1)
@@ -61,7 +61,7 @@ class BalancedBinaryTree_E110 {
   }
 
   func isBalancedRecusriveOnlyOne(root: TreeNode?) -> Bool {
-    let (isBalanced, _) = self.isBalanced(root)
+    let (isBalanced, _) = self.isBalancedRecusrive(root)
     return isBalanced
   }
 
