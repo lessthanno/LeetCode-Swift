@@ -30,6 +30,8 @@ LeetCode Solutions in Swift.
 
 - [House Robber](https://leetcode.com/problems/house-robber/), Easy 198: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/HouseRobber_E198.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/HouseRobber_E198_Test.swift)
 
+- [House Robber II](https://leetcode.com/problems/house-robber/), Medium 213: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/HouseRobberII_M213.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/HouseRobberII_M213_Test.swift)
+
 #### Array
 
 - [Move Zeroes](https://leetcode.com/problems/move-zeroes/), Easy 283: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/MoveZeroes_E283.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/MoveZeroes_E283_Test.swift)

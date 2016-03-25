@@ -24,15 +24,16 @@ class HouseRobber_E198 {
     } else  if nums.count == 2 {
       return max(nums[0], nums[1])
     } else {
-      var mark = Array<Int>(count: 2, repeatedValue: 0)
-      mark[0] = nums[0]
-      mark[1] = max(nums[0], nums[1])
+      var prev2 = nums[0]
+      var prev = max(nums[0], nums[1])
       for var i = 2; i < nums.count; i++ {
-        let value = max(mark[i-2] + nums[i], mark[i-1])
-        mark.append(value)
+        let value = max(prev2 + nums[i], prev)
+        prev2 = prev
+        prev = value
       }
-      return mark[nums.count - 1]
+      return prev
     }
+
   }
 
 }
