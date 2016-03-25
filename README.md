@@ -1,6 +1,6 @@
 ## LeetCode-Swift
 
-LeetCode OJ Solutions in Swift.
+LeetCode Solutions in Swift.
 
 [LeetCode OJ](http://www.leetcode.com) is online judge platform for preparing technical coding interviews. There are solutions in Swift and some summary blogs.
 
@@ -25,6 +25,10 @@ LeetCode OJ Solutions in Swift.
 - [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/), Easy 168: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/ExcelSheetColumnTitle_E168.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/ExcelSheetColumnTitle_E168_Test.swift)
 
 - [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/), Easy 168: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/ExcelSheetColumnNumber_E171.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/ExcelSheetColumnTitle_E171_Test.swift)
+
+#### Dynamic Programming
+
+- [House Robber](https://leetcode.com/problems/house-robber/), Easy 198: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/HouseRobber_E198.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/HouseRobber_E198_Test.swift)
 
 #### Array
 
