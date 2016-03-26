@@ -58,6 +58,8 @@ LeetCode Solutions in Swift.
 
 - [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/), Medium 145: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreePostorderTraversal_M145.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreePostorderTraversal_M145_Test.swift)
 
+- [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/), Medium 145: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreeRightSideView_M199.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreeRightSideView_M199_Test.swift)
+
 ##### Binary Search Tree (BST)
 
 - [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/), Easy 235: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/LowestCommonAncestorOfBST_E235.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/LowestCommonAncestorOfBST_E235_Test.swift)

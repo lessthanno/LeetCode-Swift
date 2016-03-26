@@ -47,6 +47,5 @@ class BinarySearchTreeIterator_M173 {
       return false
     }
     return true
-  }
-  
+  }  
 }

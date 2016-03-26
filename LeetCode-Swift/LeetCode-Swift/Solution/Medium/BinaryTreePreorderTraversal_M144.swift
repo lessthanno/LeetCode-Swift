@@ -33,9 +33,13 @@ public class BinaryTreePreorderTravesalGenerator: GeneratorType {
 
   public typealias Element = Int
 
+  private func hasNext() -> Bool {
+    return !self.stack.empty()
+  }
+
   public func next() -> Element? {
 
-    if !self.stack.empty() {
+    if hasNext() {
       let node = self.stack.pop()
 
       if let right = node.right {

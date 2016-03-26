@@ -1,29 +1,24 @@
 //
-//  Stack.swift
+//  Queue.swift
 //  LeetCode-Swift
 //
-//  Created by GUO Lin on 2/24/16.
+//  Created by GUO Lin on 3/27/16.
 //  Copyright © 2016 lincode. All rights reserved.
 //
 
-
-struct Stack<T> {
-
+struct Queue<T> {
   var items = [T]()
 
-  mutating func push(item: T) {
+  mutating func add(item: T) {
     items.append(item)
   }
 
   mutating func pop() -> T {
-    return items.removeLast()
-  }
-
-  func top() -> T? {
-    return items.last
+    return items.removeFirst()
   }
 
   func empty() -> Bool {
     return items.count == 0
   }
+
 }
