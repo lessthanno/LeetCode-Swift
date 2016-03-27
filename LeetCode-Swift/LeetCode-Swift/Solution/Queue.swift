@@ -38,8 +38,6 @@ public struct Queue<T> {
 
 extension Queue: SequenceType {
 
-  typealias GeneratorType = AnyGenerator<T>
-
   public func generate() -> AnyGenerator<T> {
     var index = 0
     return anyGenerator {

@@ -25,4 +25,17 @@ class BinaryTreeLevelOrderTraversal_E102_Test: XCTestCase {
     LCSAssert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
   }
 
+
+  func test002() {
+    let input = TreeNode(1,
+      left: TreeNode(2, left: TreeNode(1), right: TreeNode(5)),
+      right: TreeNode(3, left: TreeNode(4)))
+
+    let expected: [[Int]] = [[1], [2,3], [1,5,4]]
+
+    let answer = BinaryTreeLevelOrderTraversal_E102().levelOrderRecursive(input)
+
+    LCSAssert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
+  }
+
 }

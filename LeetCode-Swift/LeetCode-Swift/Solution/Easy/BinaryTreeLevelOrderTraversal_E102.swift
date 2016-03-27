@@ -24,7 +24,52 @@ return its level order traversal as:
 
 */
 
+public class BinaryTreeLevelOrderGenerator: GeneratorType {
+
+  typealias QueueType = Queue<TreeNode>
+  private var queue: QueueType
+
+  public typealias Element = [Int]
+
+  init(root: TreeNode) {
+    queue = QueueType()
+    queue.push(root)
+  }
+
+  private func hasNext() -> Bool {
+    return !self.queue.empty()
+  }
+
+  public func next() -> Element? {
+    var result: Element = []
+    var queueNext = QueueType()
+
+    if !hasNext() {
+      return nil
+    }
+
+    for node in queue {
+
+      if let right = node.right {
+        queueNext.push(right)
+      }
+
+      if let left = node.left {
+        queueNext.push(left)
+      }
+
+      result.insert(node.val, atIndex: 0)
+    }
+    queue = queueNext
+    return result
+  }
+
+}
+
 class BinaryTreeLevelOrderTraversal_E102 {
+
+
+// MARK: - iterative by GeneratorType
 
   func levelOrder(root: TreeNode?) -> [[Int]] {
 
@@ -32,33 +77,55 @@ class BinaryTreeLevelOrderTraversal_E102 {
       return []
     }
 
-    var queue = Queue<TreeNode>()
-    queue.push(root)
-    var queueNext = Queue<TreeNode>()
+    let generator = BinaryTreeLevelOrderGenerator(root: root)
+    var result: [[Int]] = []
 
-    var resultLevel:[Int] = []
-    var output: [[Int]] = []
-
-    while !queue.empty() {
-
-      for node in queue {
-        resultLevel.append(node.val)
-
-        if let left = node.left {
-          queueNext.push(left)
-        }
-
-        if let right = node.right {
-          queueNext.push(right)
-        }
-      }
-
-      output.append(resultLevel)
-      resultLevel.removeAll()
-      queue = queueNext
-      queueNext.removeAll()
+    var node = generator.next()
+    while node != nil {
+      result.append(node!)
+      node = generator.next()
     }
-    return output
+
+    return result
   }
 
+// MARK:- recursive
+
+  func levelOrderRecursive(root: TreeNode?) -> [[Int]] {
+    guard let root = root else {
+      return []
+    }
+
+    var queue = Queue<TreeNode>()
+    queue.push(root)
+    return levelOrderTraversal(queue, result: [])
+  }
+
+  func levelOrderTraversal(queue: Queue<TreeNode>, result:[[Int]]) -> [[Int]] {
+
+    var resultLevel:[Int] = []
+    var queueNext = Queue<TreeNode>()
+
+    for node in queue {
+      resultLevel.append(node.val)
+
+      if let left = node.left {
+        queueNext.push(left)
+      }
+
+      if let right = node.right {
+        queueNext.push(right)
+      }
+    }
+
+    var output = result
+    output.append(resultLevel)
+
+    if queueNext.empty() {
+      return output
+    } else {
+      return levelOrderTraversal(queueNext, result: output)
+    }
+
+  }
 }
