@@ -46,9 +46,23 @@ extension TreeNode: Equatable {
 
 }
 
+func isSameTree(p: TreeNode?, _ q: TreeNode?) -> Bool {
+  if let p = p, q = q {
+    if p.val == q.val &&
+      p.left == q.left &&
+      p.right == q.right {
+        return true
+    }
+    return false
+  } else if p == nil && q == nil {
+    return true
+  }
+  return false
+}
+
 
 public func ==(lhs: TreeNode, rhs: TreeNode) -> Bool {
-  return SameTree_E100().isSameTree(lhs, rhs)
+  return isSameTree(lhs, rhs)
 }
 
 public func ==(lhs: [TreeNode?], rhs: [TreeNode?]) -> Bool {
