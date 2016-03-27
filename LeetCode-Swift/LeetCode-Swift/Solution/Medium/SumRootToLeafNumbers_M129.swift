@@ -22,7 +22,6 @@ The root-to-leaf path 1->3 represents the number 13.
 Return the sum = 12 + 13 = 25.
 
 */
-import Foundation
 
 class SumRootToLeafNumbers_M129 {
 

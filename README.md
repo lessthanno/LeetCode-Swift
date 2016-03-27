@@ -72,6 +72,9 @@ LeetCode Solutions in Swift.
 
 - [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/), Medium 129: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/SumRootToLeafNumbers_M129.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/SumRootToLeafNumbers_M129_Test.swift)
 
+- [Path Sum](https://leetcode.com/problems/path-sum/), Easy 112: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/PathSum_E112.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/PathSum_E112_Test.swift)
+
+
 ##### Binary Search Tree (BST)
 
 - [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/), Easy 235: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/LowestCommonAncestorOfBST_E235.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/LowestCommonAncestorOfBST_E235_Test.swift)
