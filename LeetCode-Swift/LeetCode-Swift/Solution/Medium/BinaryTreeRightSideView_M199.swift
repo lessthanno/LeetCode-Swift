@@ -29,12 +29,12 @@ class BinaryTreeRightSideView_M199 {
 
     var queue = Queue<TreeNode>()
     queue.push(root)
-    var queueNext = Queue<TreeNode>()
 
-    var resultLevel:[Int] = []
     var output: [[Int]] = []
 
     while !queue.empty() {
+      var queueNext = Queue<TreeNode>()
+      var resultLevel:[Int] = []
 
       for node in queue {
         resultLevel.append(node.val)
@@ -49,12 +49,9 @@ class BinaryTreeRightSideView_M199 {
       }
 
       output.append(resultLevel)
-      resultLevel.removeAll()
       queue = queueNext
-      queueNext.removeAll()
     }
 
-    
     return output.map { (levels) in
         return levels.last!
     }
