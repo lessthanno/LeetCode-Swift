@@ -64,6 +64,10 @@ LeetCode Solutions in Swift.
 
 - [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/), Medium 145: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreeRightSideView_M199.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreeRightSideView_M199_Test.swift)
 
+- [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/), Easy 104: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/MaximumDepthOfBinaryTree_E104.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/MaximumDepthOfBinaryTree_E104_Test.swift)
+
+- [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/), Easy 111: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/MinimumDepthOfBinaryTree_E111.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/MinimumDepthOfBinaryTree_E111_Test.swift)
+
 ##### Binary Search Tree (BST)
 
 - [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/), Easy 235: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/LowestCommonAncestorOfBST_E235.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/LowestCommonAncestorOfBST_E235_Test.swift)
