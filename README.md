@@ -1,5 +1,7 @@
 ## LeetCode-Swift
 
+![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
+
 LeetCode Solutions in Swift.
 
 [LeetCode OJ](http://www.leetcode.com) is online judge platform for preparing technical coding interviews. There are solutions in Swift and some summary blogs.
@@ -92,3 +94,4 @@ LeetCode Solutions in Swift.
 ##### Balanced Binary Tree
 
 - [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/), Easy 110: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/BalancedBinaryTree_E110.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/BalancedBinaryTree_M110_Test.swift)
+
