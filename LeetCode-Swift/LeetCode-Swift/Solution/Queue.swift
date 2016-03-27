@@ -6,10 +6,15 @@
 //  Copyright © 2016 lincode. All rights reserved.
 //
 
-struct Queue<T> {
-  var items = [T]()
+public struct Queue<T> {
+  
+  private var items = [T]()
 
-  mutating func add(item: T) {
+  public init(arrayLiteral elements: T...) {
+    self.items = elements
+  }
+
+  mutating func push(item: T) {
     items.append(item)
   }
 
@@ -17,8 +22,33 @@ struct Queue<T> {
     return items.removeFirst()
   }
 
+  mutating func removeAll() {
+    return items.removeAll()
+  }
+
   func empty() -> Bool {
     return items.count == 0
+  }
+
+  func count() -> Int {
+    return items.count
+  }
+
+}
+
+extension Queue: SequenceType {
+
+  typealias GeneratorType = AnyGenerator<T>
+
+  public func generate() -> AnyGenerator<T> {
+    var index = 0
+    return anyGenerator {
+      if index < self.items.count {
+        return self.items[index++]
+      } else {
+        return nil
+      }
+    }
   }
 
 }

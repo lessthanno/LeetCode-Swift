@@ -40,6 +40,8 @@ public class TreeNode {
 }
 
 
+// MARK: - Equatable
+
 extension TreeNode: Equatable {
 
 }

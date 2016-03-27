@@ -7,9 +7,9 @@
 //
 
 
-struct Stack<T> {
+public struct Stack<T> {
 
-  var items = [T]()
+  private var items = [T]()
 
   mutating func push(item: T) {
     items.append(item)
@@ -25,5 +25,9 @@ struct Stack<T> {
 
   func empty() -> Bool {
     return items.count == 0
+  }
+
+  func count() -> Int {
+    return items.count
   }
 }

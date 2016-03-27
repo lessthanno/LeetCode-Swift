@@ -1,28 +1,33 @@
 /*
 
-199. (M) Binary Tree Right Side View My Submissions Question
+102. Binary Tree Level Order Traversal My Submissions Question
 
-https://leetcode.com/problems/binary-tree-right-side-view/
+https://leetcode.com/problems/binary-tree-level-order-traversal/
 
-Given a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.
+Given a binary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).
 
 For example:
-Given the following binary tree,
-     1            <---
-   /   \
-  2     3         <---
-   \     \
-    5     4       <---
-You should return [1, 3, 4].
+Given binary tree {3,9,20,#,#,15,7},
+  3
+ / \
+ 9  20
+   /  \
+  15   7
+
+return its level order traversal as:
+
+[
+[3],
+[9,20],
+[15,7]
+]
 
 */
 
+class BinaryTreeLevelOrderTraversal_E102 {
 
-class BinaryTreeRightSideView_M199 {
+  func levelOrder(root: TreeNode?) -> [[Int]] {
 
-// MARK: - iterative
-
-  func rightSideView(root: TreeNode?) -> [Int] {
     guard let root = root else {
       return []
     }
@@ -53,12 +58,7 @@ class BinaryTreeRightSideView_M199 {
       queue = queueNext
       queueNext.removeAll()
     }
-
-    
-    return output.map { (levels) in
-        return levels.last!
-    }
+    return output
   }
-
 
 }
