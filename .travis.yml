@@ -3,6 +3,6 @@ language: objective-c
 script:
     - |
       xctool test \
-      -project LeetCode-Swift.xcodeproj \
+      -project LeetCode-Swift/LeetCode-Swift.xcodeproj \
       -scheme LeetCode-SwiftTests \
       -sdk macosx

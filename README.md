@@ -1,5 +1,6 @@
 ## LeetCode-Swift
 
+[![Test Status](https://travis-ci.org/lincode/LeetCode-Swift.svg?branch=master)](https://travis-ci.org/lincode/LeetCode-Swift)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
 
 LeetCode Solutions in Swift.
