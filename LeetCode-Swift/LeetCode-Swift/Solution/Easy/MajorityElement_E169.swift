@@ -19,9 +19,9 @@ class MajorityElement_E169 {
 
     for num in nums {
       if res == num {
-        counter++
+        counter += 1
       } else {
-        counter--
+        counter -= 1
       }
 
       if counter == 0 {

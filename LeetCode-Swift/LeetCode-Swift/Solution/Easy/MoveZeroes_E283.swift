@@ -25,9 +25,9 @@ class MoveZeroes_E283 {
         nums.removeAtIndex(pos)
         nums.insert(0, atIndex: count - 1)
       } else {
-        pos++
+        pos += 1
       }
-      sum++
+      sum += 1
     }
   }
 

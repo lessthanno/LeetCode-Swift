@@ -26,7 +26,7 @@ class HouseRobber_E198 {
     } else {
       var prev2 = nums[0]
       var prev = max(nums[0], nums[1])
-      for var i = 2; i < nums.count; i++ {
+      for i in 2 ..< nums.count {
         let value = max(prev2 + nums[i], prev)
         prev2 = prev
         prev = value

@@ -40,9 +40,10 @@ extension Queue: SequenceType {
 
   public func generate() -> AnyGenerator<T> {
     var index = 0
-    return anyGenerator {
+    return AnyGenerator {
       if index < self.items.count {
-        return self.items[index++]
+        index += 1
+        return self.items[index]
       } else {
         return nil
       }

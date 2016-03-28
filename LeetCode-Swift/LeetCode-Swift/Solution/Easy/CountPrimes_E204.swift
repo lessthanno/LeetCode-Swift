@@ -21,7 +21,7 @@ class CountPrimes_E204 {
 
     var isPrimes = Array<Bool>(count: n, repeatedValue: true)
 
-    for var i = 2; i * i < n; i++ {
+    for var i = 2; i * i < n; i += 1 {
 
       if !isPrimes[i] {
         continue

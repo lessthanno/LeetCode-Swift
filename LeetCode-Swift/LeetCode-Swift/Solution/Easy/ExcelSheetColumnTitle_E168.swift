@@ -37,7 +37,7 @@ class ExcelSheetColumnTitle_E168 {
       if mod == 0 {
         title.insert(Character("Z"), atIndex: title.startIndex)
         num /= 26
-        num--
+        num -= 1
       }
       else {
         let letter = alphbets[mod]

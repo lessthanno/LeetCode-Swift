@@ -24,7 +24,7 @@ class HouseRobberII_M213 {
     }
     var prev2 = 0
     var prev = 0
-    for var i = start; i <= end; i++ {
+    for var i = start; i <= end; i += 1 {
       let value = max(prev2 + nums[i], prev)
       prev2 = prev
       prev = value

@@ -30,7 +30,7 @@ class KthSmallestElementBST_M230 {
 
     let generator = BinaryTreeInorderTraversalGenerator(root: root)
 
-    for var i = 1; i < k; i++ {
+    for _ in 1 ..< k {
       generator.next()
     }
 

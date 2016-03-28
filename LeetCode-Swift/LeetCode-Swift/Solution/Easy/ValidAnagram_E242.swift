@@ -29,11 +29,11 @@ class ValidAnagram_E242 {
     var counts = Array<Int>(count: 26, repeatedValue: 0)
     for c in s.utf8 {
       let spos: Int = Int(c) - 97
-      counts[spos]++
+      counts[spos] += 1
     }
     for c in t.utf8 {
       let spos: Int = Int(c) - 97
-      counts[spos]--
+      counts[spos] -= 1
     }
 
     for n in counts {

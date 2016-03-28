@@ -71,7 +71,7 @@ public func ==(lhs: [TreeNode?], rhs: [TreeNode?]) -> Bool {
     return false
   }
 
-  for var i = 0; i < lhs.count ; i++ {
+  for i in 0 ..< lhs.count  {
     let lnode = lhs[i]
     let rnode = rhs[i]
     if lnode != rnode {
