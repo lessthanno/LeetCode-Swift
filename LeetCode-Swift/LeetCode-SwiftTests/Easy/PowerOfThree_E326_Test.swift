@@ -14,7 +14,7 @@ class PowerOfThree_E326_Test: XCTestCase {
   let problem = "PowerOfThree_E326"
 
   func test001() {
-    let input: Int = 27
+    let input: Int64 = 27
     let expected: Bool = true
 
     let answer = PowerOfThree_E326().isPowerOfThree(input)
@@ -23,7 +23,7 @@ class PowerOfThree_E326_Test: XCTestCase {
   }
 
   func test002() {
-    let input: Int = 1162261467
+    let input: Int64 = 1162261467
     let expected: Bool = true
 
     let answer = PowerOfThree_E326().isPowerOfThree(input)

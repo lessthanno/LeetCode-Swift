@@ -42,8 +42,9 @@ extension Queue: SequenceType {
     var index = 0
     return AnyGenerator {
       if index < self.items.count {
+        let item = self.items[index]
         index += 1
-        return self.items[index]
+        return item
       } else {
         return nil
       }
