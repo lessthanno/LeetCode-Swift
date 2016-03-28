@@ -77,6 +77,7 @@ LeetCode Solutions in Swift.
 
 - [Path Sum](https://leetcode.com/problems/path-sum/), Easy 112: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/PathSum_E112.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/PathSum_E112_Test.swift)
 
+- [Path Sum II](https://leetcode.com/problems/path-sum-ii/), Medium 113: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/PathSumII_M113.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/PathSumII_M113_Test.swift)
 
 ##### Binary Search Tree (BST)
 
