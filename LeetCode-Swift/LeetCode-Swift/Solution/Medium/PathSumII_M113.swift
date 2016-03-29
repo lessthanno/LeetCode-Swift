@@ -35,10 +35,8 @@ class PathSumII_M113 {
       return []
     }
 
-    typealias StackType = Stack<(TreeNode, [Int])>
-
     var pathSum: [[Int]] = []
-    var stack = StackType()
+    var stack = Stack<(TreeNode, [Int])>()
     stack.push((root, [root.val]))
 
     while !stack.empty() {

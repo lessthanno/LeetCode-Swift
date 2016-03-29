@@ -75,6 +75,8 @@ LeetCode Solutions in Swift.
 
 - [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/), Medium 129: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/SumRootToLeafNumbers_M129.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/SumRootToLeafNumbers_M129_Test.swift)
 
+- [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/), Easy 257: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/BinaryTreePaths_E257.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/BinaryTreePaths_E257_Test.swift)
+
 - [Path Sum](https://leetcode.com/problems/path-sum/), Easy 112: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/PathSum_E112.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/PathSum_E112_Test.swift)
 
 - [Path Sum II](https://leetcode.com/problems/path-sum-ii/), Medium 113: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/PathSumII_M113.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/PathSumII_M113_Test.swift)
