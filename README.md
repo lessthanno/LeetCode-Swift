@@ -5,7 +5,7 @@
 
 LeetCode Solutions in Swift.
 
-[LeetCode OJ](http://www.leetcode.com) is online judge platform for preparing technical coding interviews. There are solutions in Swift and some summary blogs.
+[LeetCode OJ](http://www.leetcode.com) is online judge platform for preparing technical coding interviews. There are solutions in Swift and some summary blog articles.
 
 ### Solutions
 
@@ -80,6 +80,8 @@ LeetCode Solutions in Swift.
 - [Path Sum](https://leetcode.com/problems/path-sum/), Easy 112: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/PathSum_E112.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/PathSum_E112_Test.swift)
 
 - [Path Sum II](https://leetcode.com/problems/path-sum-ii/), Medium 113: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/PathSumII_M113.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/PathSumII_M113_Test.swift)
+
+- [Flatten Binary Tree To Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/), Medium 114: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/FlattenBinaryTreeToLinkedList_M114.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/FlattenBinaryTreeToLinkedList_M114_Test.swift)
 
 ##### Binary Search Tree (BST)
 

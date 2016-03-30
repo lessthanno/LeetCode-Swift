@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A30BF8A61CAB5D970063B68D /* FlattenBinaryTreeToLinkedList_M114.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BF8A51CAB5D970063B68D /* FlattenBinaryTreeToLinkedList_M114.swift */; };
+		A30BF8A81CAB600D0063B68D /* FlattenBinaryTreeToLinkedList_M114_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BF8A71CAB600D0063B68D /* FlattenBinaryTreeToLinkedList_M114_Test.swift */; };
 		A316DF851C998D41007F6F53 /* BalancedBinaryTree_E110.swift in Sources */ = {isa = PBXBuildFile; fileRef = A316DF841C998D41007F6F53 /* BalancedBinaryTree_E110.swift */; };
 		A316DF871C998F5B007F6F53 /* BalancedBinaryTree_E110_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A316DF861C998F5B007F6F53 /* BalancedBinaryTree_E110_Test.swift */; };
 		A33E62641CA771CA00CFA024 /* BinaryTreeLevelOrderTraversal_E102.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33E62631CA771CA00CFA024 /* BinaryTreeLevelOrderTraversal_E102.swift */; };
@@ -103,6 +105,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A30BF8A51CAB5D970063B68D /* FlattenBinaryTreeToLinkedList_M114.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlattenBinaryTreeToLinkedList_M114.swift; sourceTree = "<group>"; };
+		A30BF8A71CAB600D0063B68D /* FlattenBinaryTreeToLinkedList_M114_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlattenBinaryTreeToLinkedList_M114_Test.swift; sourceTree = "<group>"; };
 		A316DF841C998D41007F6F53 /* BalancedBinaryTree_E110.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree_E110.swift; sourceTree = "<group>"; };
 		A316DF861C998F5B007F6F53 /* BalancedBinaryTree_E110_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree_E110_Test.swift; sourceTree = "<group>"; };
 		A33E62631CA771CA00CFA024 /* BinaryTreeLevelOrderTraversal_E102.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreeLevelOrderTraversal_E102.swift; sourceTree = "<group>"; };
@@ -321,6 +325,7 @@
 				A3534A5F1CA6AC33004C88C1 /* BinaryTreeRightSideView_M199.swift */,
 				A3C9D2611CA827B60070F9A5 /* SumRootToLeafNumbers_M129.swift */,
 				A34C7EF71CA97A51001997DE /* PathSumII_M113.swift */,
+				A30BF8A51CAB5D970063B68D /* FlattenBinaryTreeToLinkedList_M114.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -379,6 +384,7 @@
 				A3534A611CA6B35B004C88C1 /* BinaryTreeRightSideView_M199_Test.swift */,
 				A3C9D2631CA8313C0070F9A5 /* SumRootToLeafNumbers_M129_Test.swift */,
 				A3F7CF241CA9F80A000D19BB /* PathSumII_M113_Test.swift */,
+				A30BF8A71CAB600D0063B68D /* FlattenBinaryTreeToLinkedList_M114_Test.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -496,6 +502,7 @@
 				A3A95D551C7DB183009E7DD6 /* CountPrimes_E204.swift in Sources */,
 				A3F8C37B1CA595DA00F26813 /* HouseRobberII_M213.swift in Sources */,
 				A3A95D651C7EDA09009E7DD6 /* HappyNumber_E202.swift in Sources */,
+				A30BF8A61CAB5D970063B68D /* FlattenBinaryTreeToLinkedList_M114.swift in Sources */,
 				A3A95D221C7B469E009E7DD6 /* NimGame_E292.swift in Sources */,
 				A3A95D511C7D89D2009E7DD6 /* SameTree_E100.swift in Sources */,
 				A3F7CF271CA9FD42000D19BB /* BinaryTreePaths_E257.swift in Sources */,
@@ -554,6 +561,7 @@
 				A3A95D5B1C7EA8D6009E7DD6 /* PowerOfTwo_E231_Test.swift in Sources */,
 				A3F8C3791CA54B3700F26813 /* HouseRobber_E198_Test.swift in Sources */,
 				A3534A5E1CA693EC004C88C1 /* HouseRobberIII_M337_Test.swift in Sources */,
+				A30BF8A81CAB600D0063B68D /* FlattenBinaryTreeToLinkedList_M114_Test.swift in Sources */,
 				A3F7CF251CA9F80A000D19BB /* PathSumII_M113_Test.swift in Sources */,
 				A33E62681CA797AE00CFA024 /* BinaryTreeLevelOrderTraversalII_E107_Test.swift in Sources */,
 				A3A95D811C81D653009E7DD6 /* KthSmallestElementBST_M230_Test.swift in Sources */,
