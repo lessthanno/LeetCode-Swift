@@ -87,6 +87,8 @@
 		A3C9D2641CA8313C0070F9A5 /* SumRootToLeafNumbers_M129_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C9D2631CA8313C0070F9A5 /* SumRootToLeafNumbers_M129_Test.swift */; };
 		A3C9D2661CA836F20070F9A5 /* PathSum_E112.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C9D2651CA836F20070F9A5 /* PathSum_E112.swift */; };
 		A3C9D2681CA83A0D0070F9A5 /* PathSum_E112_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C9D2671CA83A0D0070F9A5 /* PathSum_E112_Test.swift */; };
+		A3F382491CACD04400D4832D /* ConstructBinaryTreeFromInorderAndPostorderTraversal_M106.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F382481CACD04400D4832D /* ConstructBinaryTreeFromInorderAndPostorderTraversal_M106.swift */; };
+		A3F3824B1CACD4D200D4832D /* ConstructBinaryTreeFromInorderAndPostorderTraversal_M106_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F3824A1CACD4D200D4832D /* ConstructBinaryTreeFromInorderAndPostorderTraversal_M106_Test.swift */; };
 		A3F7CF251CA9F80A000D19BB /* PathSumII_M113_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F7CF241CA9F80A000D19BB /* PathSumII_M113_Test.swift */; };
 		A3F7CF271CA9FD42000D19BB /* BinaryTreePaths_E257.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F7CF261CA9FD42000D19BB /* BinaryTreePaths_E257.swift */; };
 		A3F7CF291CAA01A7000D19BB /* BinaryTreePaths_E257_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F7CF281CAA01A7000D19BB /* BinaryTreePaths_E257_Test.swift */; };
@@ -191,6 +193,8 @@
 		A3C9D2631CA8313C0070F9A5 /* SumRootToLeafNumbers_M129_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumRootToLeafNumbers_M129_Test.swift; sourceTree = "<group>"; };
 		A3C9D2651CA836F20070F9A5 /* PathSum_E112.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathSum_E112.swift; sourceTree = "<group>"; };
 		A3C9D2671CA83A0D0070F9A5 /* PathSum_E112_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathSum_E112_Test.swift; sourceTree = "<group>"; };
+		A3F382481CACD04400D4832D /* ConstructBinaryTreeFromInorderAndPostorderTraversal_M106.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstructBinaryTreeFromInorderAndPostorderTraversal_M106.swift; sourceTree = "<group>"; };
+		A3F3824A1CACD4D200D4832D /* ConstructBinaryTreeFromInorderAndPostorderTraversal_M106_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstructBinaryTreeFromInorderAndPostorderTraversal_M106_Test.swift; sourceTree = "<group>"; };
 		A3F7CF241CA9F80A000D19BB /* PathSumII_M113_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathSumII_M113_Test.swift; sourceTree = "<group>"; };
 		A3F7CF261CA9FD42000D19BB /* BinaryTreePaths_E257.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreePaths_E257.swift; sourceTree = "<group>"; };
 		A3F7CF281CAA01A7000D19BB /* BinaryTreePaths_E257_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreePaths_E257_Test.swift; sourceTree = "<group>"; };
@@ -331,6 +335,7 @@
 				A34C7EF71CA97A51001997DE /* PathSumII_M113.swift */,
 				A30BF8A51CAB5D970063B68D /* FlattenBinaryTreeToLinkedList_M114.swift */,
 				A32EAAEF1CAC229D00B78A24 /* ConstructBinaryTreeFromPreorderAndInorderTraversal_M105.swift */,
+				A3F382481CACD04400D4832D /* ConstructBinaryTreeFromInorderAndPostorderTraversal_M106.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -391,6 +396,7 @@
 				A3F7CF241CA9F80A000D19BB /* PathSumII_M113_Test.swift */,
 				A30BF8A71CAB600D0063B68D /* FlattenBinaryTreeToLinkedList_M114_Test.swift */,
 				A32EAAF11CAC24E700B78A24 /* ConstructBinaryTreeFromPreorderAndInorderTraversal_M105_Test.swift */,
+				A3F3824A1CACD4D200D4832D /* ConstructBinaryTreeFromInorderAndPostorderTraversal_M106_Test.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -505,6 +511,7 @@
 				A3A95D291C7B54AB009E7DD6 /* MoveZeroes_E283.swift in Sources */,
 				A3B9DC841C9698F2001E0129 /* UniqueBinarySearchTreesII_M95.swift in Sources */,
 				A33E626A1CA797CE00CFA024 /* BinaryTreeLevelOrderTraversalII_E107.swift in Sources */,
+				A3F382491CACD04400D4832D /* ConstructBinaryTreeFromInorderAndPostorderTraversal_M106.swift in Sources */,
 				A3A95D551C7DB183009E7DD6 /* CountPrimes_E204.swift in Sources */,
 				A3F8C37B1CA595DA00F26813 /* HouseRobberII_M213.swift in Sources */,
 				A3A95D651C7EDA09009E7DD6 /* HappyNumber_E202.swift in Sources */,
@@ -579,6 +586,7 @@
 				A33E62661CA795BA00CFA024 /* BinaryTreeLevelOrderTraversal_E102_Test.swift in Sources */,
 				A3A95D571C7DB4CD009E7DD6 /* CountPrimes_E204_Test.swift in Sources */,
 				A3A95D2F1C7B5E67009E7DD6 /* UglyNumber_E263_Test.swift in Sources */,
+				A3F3824B1CACD4D200D4832D /* ConstructBinaryTreeFromInorderAndPostorderTraversal_M106_Test.swift in Sources */,
 				A3A95D271C7B4861009E7DD6 /* NimGame_E292_Test.swift in Sources */,
 				A33E62751CA7BF0300CFA024 /* MaximumDepthOfBinaryTree_E104_Test.swift in Sources */,
 				A3A95D3F1C7D5120009E7DD6 /* BinaryTreePreorderTraversal_M144_Test.swift in Sources */,

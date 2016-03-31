@@ -20,30 +20,30 @@ class ConstructBinaryTreeFromPreorderAndInorderTraversal_M105 {
       return nil
     }
 
-    let rootVal = preorder[0]
+    let rootVal = preorder.first!
 
-    if let index = inorder.indexOf(rootVal) {
-      let root = TreeNode(rootVal)
-
-      if index > 0 {
-        let leftPreorder = Array(preorder[1...index])
-        let leftInorder = Array(inorder[0...(index-1)])
-        let left = buildTree(leftPreorder, leftInorder)
-        root.left = left
-      }
-
-      let count = inorder.count
-      if index < count - 1 {
-        let rightPreorder = Array(preorder[index+1...count-1])
-        let rightInorder = Array(inorder[index+1...count-1])
-        let right = buildTree(rightPreorder, rightInorder)
-        root.right = right
-      }
-
-      return root
+    guard let index = inorder.indexOf(rootVal) else {
+      return nil
     }
 
-    return nil
+    let root = TreeNode(rootVal)
+
+    if index > 0 {
+      let leftPreorder = Array(preorder[1...index])
+      let leftInorder = Array(inorder[0...(index-1)])
+      let left = buildTree(leftPreorder, leftInorder)
+      root.left = left
+    }
+
+    let count = inorder.count
+    if index < count - 1 {
+      let rightPreorder = Array(preorder[index+1...count-1])
+      let rightInorder = Array(inorder[index+1...count-1])
+      let right = buildTree(rightPreorder, rightInorder)
+      root.right = right
+    }
+
+    return root
 
   }
 
@@ -72,7 +72,7 @@ class ConstructBinaryTreeFromPreorderAndInorderTraversal_M105 {
         let leftPreorder = Array(currentPreorder[1...index])
         let leftInorder = Array(currentInorder[0...(index-1)])
         if leftPreorder.count > 0 {
-          let left = TreeNode(leftPreorder[0])
+          let left = TreeNode(leftPreorder.first!)
           node.left = left
           stack.push((left, leftPreorder, leftInorder))
         }
@@ -83,7 +83,7 @@ class ConstructBinaryTreeFromPreorderAndInorderTraversal_M105 {
         let rightPreorder = Array(currentPreorder[index+1...count-1])
         let rightInorder = Array(currentInorder[index+1...count-1])
         if rightPreorder.count > 0 {
-          let right = TreeNode(rightPreorder[0])
+          let right = TreeNode(rightPreorder.first!)
           node.right = right
           stack.push((right, rightPreorder, rightInorder))
         }
