@@ -83,6 +83,8 @@ LeetCode Solutions in Swift.
 
 - [Flatten Binary Tree To Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/), Medium 114: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/FlattenBinaryTreeToLinkedList_M114.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/FlattenBinaryTreeToLinkedList_M114_Test.swift)
 
+- [Construct Binary Tree From Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/), Medium 114: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/ConstructBinaryTreeFromPreorderAndInorderTraversal_M105.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/ConstructBinaryTreeFromPreorderAndInorderTraversal_M105_Test.swift)
+
 ##### Binary Search Tree (BST)
 
 - [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/), Easy 235: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/LowestCommonAncestorOfBST_E235.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/LowestCommonAncestorOfBST_E235_Test.swift)
