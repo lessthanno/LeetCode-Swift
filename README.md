@@ -103,6 +103,8 @@ LeetCode Solutions in Swift.
 
 - [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/), Meduim 98: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/ValidateBinarySearchTree_M98.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/ValidateBinarySearchTree_M98_Test.swift)
 
+- [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/), Hard 99: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Hard/RecoverBinarySearchTree_H99.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Hard/RecoverBinarySearchTree_M98_Test.swift)
+
 ##### Balanced Binary Tree
 
 - [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/), Easy 110: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/BalancedBinaryTree_E110.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/BalancedBinaryTree_M110_Test.swift)

@@ -22,12 +22,9 @@ Note: Recursive solution is trivial, could you do it iteratively?
 
 public class BinaryTreePreorderTravesalGenerator: GeneratorType {
 
-  typealias StackType = Stack<TreeNode>
-
-  var stack: StackType
+  var stack = Stack<TreeNode>()
 
   init(root: TreeNode) {
-    self.stack = StackType()
     self.stack.push(root)
   }
 

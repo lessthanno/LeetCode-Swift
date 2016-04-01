@@ -12,7 +12,7 @@ import XCTest
 class HouseRobberII_M213_Test: XCTestCase {
 
   let problem = "HouseRobber_E198_Test"
-  func test002() {
+  func test001() {
     let input: [Int] = [1,12,34,55,99,23,90]
     let expected: Int = 223
 

@@ -22,15 +22,13 @@ Note: Recursive solution is trivial, could you do it iteratively?
 
 public class BinaryTreeInorderTraversalGenerator: GeneratorType {
 
-  typealias StackType = Stack<TreeNode>
-
-  var stack: StackType = StackType()
+  var stack = Stack<TreeNode>()
 
   init(root: TreeNode?) {
-    pushAllNodes(root)
+    pushAllLeftNodes(root)
   }
 
-  private func pushAllNodes(node: TreeNode?) {
+  private func pushAllLeftNodes(node: TreeNode?) {
     var theNode = node
     while theNode != nil {
       stack.push(theNode!)
@@ -48,7 +46,7 @@ public class BinaryTreeInorderTraversalGenerator: GeneratorType {
 
     if hasNext() {
       let visitedNode = stack.pop()
-      pushAllNodes(visitedNode.right)
+      pushAllLeftNodes(visitedNode.right)
       return visitedNode.val
     }
     return nil
