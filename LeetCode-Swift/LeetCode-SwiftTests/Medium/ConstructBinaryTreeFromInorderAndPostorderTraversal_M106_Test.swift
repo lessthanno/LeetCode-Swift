@@ -23,7 +23,6 @@ class ConstructBinaryTreeFromInorderAndPostorderTraversal_M106_Test: XCTestCase 
 
     let answer = ConstructBinaryTreeFromInorderAndPostorderTraversal_M106().buildTreeRecursive(input1, input2)
 
-
     LCSAssert(problem, input: input1, answer: answer, expected: expected, judge: { answer == expected })
   }
 
@@ -36,7 +35,6 @@ class ConstructBinaryTreeFromInorderAndPostorderTraversal_M106_Test: XCTestCase 
                             right: TreeNode(3, left: TreeNode(6), right: TreeNode(7)))
 
     let answer = ConstructBinaryTreeFromInorderAndPostorderTraversal_M106().buildTree(input1, input2)
-
 
     LCSAssert(problem, input: input1, answer: answer, expected: expected, judge: { answer == expected })
   }

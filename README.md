@@ -101,6 +101,8 @@ LeetCode Solutions in Swift.
 
 - [Convert Sorted Array to BST](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/), Meduim 108: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/ConvertSortedArrayToBST_M108.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/ConvertSortedArrayToBST_M108_Test.swift)
 
+- [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/), Meduim 98: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/ValidateBinarySearchTree_M98.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/ValidateBinarySearchTree_M98_Test.swift)
+
 ##### Balanced Binary Tree
 
 - [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/), Easy 110: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/BalancedBinaryTree_E110.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/BalancedBinaryTree_M110_Test.swift)

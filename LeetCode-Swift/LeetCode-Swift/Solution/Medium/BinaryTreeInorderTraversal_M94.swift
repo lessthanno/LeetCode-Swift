@@ -67,10 +67,10 @@ class BinaryTreeInorderTraversal_M94 {
 
     var result = Array<Int>()
 
-    var node = generator.next()
-    while node != nil {
-      result.append(node!)
-      node = generator.next()
+    var value = generator.next()
+    while value != nil {
+      result.append(value!)
+      value = generator.next()
     }
 
     return result
