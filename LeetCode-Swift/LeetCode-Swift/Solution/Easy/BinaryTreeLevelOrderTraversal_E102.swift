@@ -80,10 +80,10 @@ class BinaryTreeLevelOrderTraversal_E102 {
     let generator = BinaryTreeLevelOrderGenerator(root: root)
     var result: [[Int]] = []
 
-    var node = generator.next()
-    while node != nil {
-      result.append(node!)
-      node = generator.next()
+    var nodes = generator.next()
+    while nodes != nil {
+      result.append(nodes!)
+      nodes = generator.next()
     }
 
     return result

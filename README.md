@@ -65,6 +65,8 @@ LeetCode Solutions in Swift.
 
 - [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/), Easy 107: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/BinaryTreeLevelOrderTraversalII_E107.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/BinaryTreeLevelOrderTraversalII_E107_Test.swift)
 
+- [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/), Medium 103: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreeZigzagLevelOrderTraversal_M103.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreeZigzagLevelOrderTraversal_M103_Test.swift)
+
 - [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/), Medium 145: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreeRightSideView_M199.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreeRightSideView_M199_Test.swift)
 
 - [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/), Easy 104: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/MaximumDepthOfBinaryTree_E104.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/MaximumDepthOfBinaryTree_E104_Test.swift)
