@@ -25,7 +25,7 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 extension TreeNode {
 
 
-  func isChild(p: TreeNode) -> Bool {
+  func hasChild(p: TreeNode) -> Bool {
 
     if let left = self.left where left == p {
       return true
@@ -35,11 +35,11 @@ extension TreeNode {
       return true
     }
 
-    if let left = self.left where left.isChild(p) {
+    if let left = self.left where left.hasChild(p) {
       return true
     }
 
-    if let right = self.right where right.isChild(p) {
+    if let right = self.right where right.hasChild(p) {
       return true
     }
 
@@ -59,14 +59,14 @@ class LowestCommonAncestorOfBinaryTree_M236 {
 
     var current = root
 
-    while current.isChild(p) && current.isChild(q) {
+    while current.hasChild(p) && current.hasChild(q) {
 
-      if let left = current.left where left.isChild(p) && left.isChild(q) {
+      if let left = current.left where left.hasChild(p) && left.hasChild(q) {
         current = left
         continue
       }
 
-      if let right = current.right where right.isChild(p) && right.isChild(q) {
+      if let right = current.right where right.hasChild(p) && right.hasChild(q) {
         current = right
         continue
       }
@@ -75,5 +75,36 @@ class LowestCommonAncestorOfBinaryTree_M236 {
     }
 
     return current
+  }
+
+  // MARK: - recursive
+
+  func lowestCommonAncestorRecursive(root: TreeNode?, p: TreeNode, q: TreeNode) -> TreeNode? {
+
+    guard let root = root else {
+      return nil
+    }
+
+    if root == p || root == q {
+      return root
+    }
+
+    if p.hasChild(q) {
+      return p
+    }
+    if q.hasChild(p) {
+      return q
+    }
+
+
+    if let left = root.left where left.hasChild(p) && left.hasChild(q) {
+      return lowestCommonAncestorRecursive(left, p: p, q: q)
+    }
+
+    if let right = root.right where right.hasChild(p) && right.hasChild(q) {
+      return lowestCommonAncestorRecursive(right, p: p, q: q)
+    }
+
+    return root
   }
 }
