@@ -91,6 +91,8 @@ LeetCode Solutions in Swift.
 
 - [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/), Medium 236: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/LowestCommonAncestorOfBinaryTree_M236.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/LowestCommonAncestorOfBinaryTree_M236_Test.swift)
 
+- [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/), Hard 124: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Hard/BinaryTreeMaximumPathSum_H124.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Hard/BinaryTreeMaximumPathSum_H124_Test.swift)
+
 ##### Binary Search Tree (BST)
 
 - [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/), Easy 235: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/LowestCommonAncestorOfBST_E235.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/LowestCommonAncestorOfBST_E235_Test.swift)
