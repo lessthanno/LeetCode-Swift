@@ -63,16 +63,17 @@ extension TreeNode: SequenceType {
 
 class BinaryTreePreorderTraversal_M144 {
 
-// MARK: - iterative by SequenceType
+  // MARK: - Iterative by SequenceType
 
   func preorderTraversal(root: TreeNode?) -> [Int] {
-    if let root = root {
-      return root.map { $0 }
+    guard let root = root else {
+      return []
     }
-    return []
+
+    return root.map { $0 }
   }
 
-// MARK: - recursive
+  // MARK: - Recursive
 
   func preorderTraversalRecursive(root: TreeNode?) -> [Int] {
     var result = Array<Int>()
@@ -83,6 +84,48 @@ class BinaryTreePreorderTraversal_M144 {
       result.appendContentsOf(left)
       result.appendContentsOf(right)
     }
+    return result
+  }
+
+  // MARK: - Morris
+
+  func preorderTraversalMorris(root: TreeNode?) -> [Int] {
+    guard let root = root else {
+      return []
+    }
+
+    var result: [Int] = []
+
+    var current: TreeNode? = root
+    while current != nil {
+
+      guard let left = current!.left else {
+        // 1.如果当前节点的左孩子为空，则输出当前节点，并将其右孩子作为当前节点。
+        result.append(current!.val)
+        current = current!.right
+        continue
+      }
+
+      // 2. 如果当前节点的左孩子不为空，在当前节点的左子树中找到当前节点在中序遍历下的前驱节点。
+      var preNode = left
+      while preNode.right != nil && preNode.right !== current {
+        preNode = preNode.right!
+      }
+
+      if let _ = preNode.right {
+        //2.2. 如果前驱节点的右孩子为当前节点，将它的右孩子重新设为空（恢复树的形状）。当前节点更新为当前节点的右孩子。
+        preNode.right = nil
+        current = current!.right
+      } else {
+        //2.1. 如果前驱节点的右孩子为空，将它的右孩子设置为当前节点（标记当前节点）。输出当前节点。当前节点更新为当前节点的左孩子。
+        preNode.right = current
+        result.append(current!.val)
+        current = current!.left
+      }
+
+
+    }
+
     return result
   }
 

@@ -93,7 +93,7 @@ class SymmetricTree_E101 {
 
     let left = symmetric(root.left)
 
-    return left == root.right
+    return left === root.right
 
   }
 

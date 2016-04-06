@@ -55,11 +55,11 @@ LeetCode Solutions in Swift.
 
 ##### Binary Tree
 
-- [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/), Medium 144: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreePreorderTraversal_M144.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreePreorderTraversal_M144_Test.swift)
+- [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/), Medium 144: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreePreorderTraversal_M144.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreePreorderTraversal_M144_Test.swift)，Recursive & Iteration: T = O(n), S = O(n); Morris: T = O(n)，S = O(1)
 
 - [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/), Medium 94: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreeInorderTraversal_M94.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreeInorderTraversal_M94_Test.swift)
 
-- [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/), Medium 145: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/BinaryTreePostorderTraversal_M145.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/BinaryTreePostorderTraversal_M145_Test.swift)
+- [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/), Hard 145: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Hard/BinaryTreePostorderTraversal_H145.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Hard/BinaryTreePostorderTraversal_H145_Test.swift)
 
 - [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/), Easy 102: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/BinaryTreeLevelOrderTraversal_E102.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/BinaryTreeLevelOrderTraversal_E102_Test.swift)
 

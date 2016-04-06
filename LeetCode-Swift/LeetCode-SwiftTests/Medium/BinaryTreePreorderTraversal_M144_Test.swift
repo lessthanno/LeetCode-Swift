@@ -26,7 +26,7 @@ class BinaryTreePreorderTraversal_M144_Test: XCTestCase {
     LCSAssert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
   }
 
-  func test002() {
+  func test011() {
 
     let input = TreeNode(1,
       left: TreeNode(3, left:  TreeNode(2), right: TreeNode(3)),
@@ -34,6 +34,19 @@ class BinaryTreePreorderTraversal_M144_Test: XCTestCase {
     let expected = [1, 3, 2, 3, 4, 6, 7]
 
     let answer = BinaryTreePreorderTraversal_M144().preorderTraversalRecursive(input)
+
+    LCSAssert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
+  }
+
+
+  func test021() {
+
+    let input = TreeNode(1,
+                         left: TreeNode(3, left:  TreeNode(2), right: TreeNode(3)),
+                         right: TreeNode(4, left: TreeNode(6), right: TreeNode(7)))
+    let expected = [1, 3, 2, 3, 4, 6, 7]
+
+    let answer = BinaryTreePreorderTraversal_M144().preorderTraversalMorris(input)
 
     LCSAssert(problem, input: input, answer: answer, expected: expected, judge: { answer == expected })
   }
