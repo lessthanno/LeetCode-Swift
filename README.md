@@ -11,6 +11,9 @@ LeetCode Solutions in Swift.
 
 - [Nim Game](https://leetcode.com/problems/nim-game/), Easy 292: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/NimGame_E292.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/NimGame_E292_Test.swift)
 
+- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/), Easy 20: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/ValidParentheses_E20.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/ValidParentheses_E20_Test.swift)
+
+
 #### Math
 
 - [Count Primes](https://leetcode.com/problems/count-primes/), Easy 204: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/CountPrimes_E204.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/CountPrimes_E204_Test.swift)
