@@ -13,6 +13,9 @@ LeetCode Solutions in Swift.
 
 - [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/), Easy 20: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Easy/ValidParentheses_E20.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Easy/ValidParentheses_E20_Test.swift)
 
+#### Bit Manipulation
+
+- [Single Number](https://leetcode.com/problems/single-number/), Medium 136: [Solution](./LeetCode-Swift/LeetCode-Swift/Solution/Medium/SingleNumber_M136.swift), [Test](./LeetCode-Swift/LeetCode-SwiftTests/Medium/SingleNumber_M136_Test.swift)
 
 #### Math
 
